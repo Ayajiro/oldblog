@@ -443,7 +443,12 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 .post-toc {
-  background-color: #dc322f;
+  background-color: #eee;
+  color: #337ab7;
+  padding: 10% 0% 10% 19%;
+}
+.post-toc a {
+  color: #337ab7;
 }
 article .container .row img {
   max-width: 100% !important;
