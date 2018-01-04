@@ -442,6 +442,9 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+.post-toc {
+  background-color: #dc322f;
+}
 article .container .row img {
   max-width: 100% !important;
   height: auto;
