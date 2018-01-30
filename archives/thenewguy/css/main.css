@@ -8,7 +8,7 @@ a:hover {
     color: inherit;
 }
 
-#slid1,#slid3{display: none;}
+#slid2,#slid3{display: none;}
 #main {
     background-color: #fcc0d7;
     width: 100%;
