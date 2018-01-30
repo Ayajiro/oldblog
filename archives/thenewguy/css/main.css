@@ -8,7 +8,7 @@ a:hover {
     color: inherit;
 }
 
-
+#slid1,#slid3{display: none;}
 #main {
     background-color: #fcc0d7;
     width: 100%;
@@ -66,6 +66,7 @@ a:hover {
 
 
 .btn_index {
+	cursor: pointer;
     width: 150px;
     height: 40px;
     border: 2px #fff solid;
@@ -84,7 +85,28 @@ a:hover {
     line-height: 42px;
     text-align: center;
 }
+.colorinput{width: 100px;}
+.colorinput input{float: left;}
+.btn_index2 {
+	float: left;
+	cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border: 2px #fff solid;
+    
+    border-top-right-radius: 25px;
+    
+    border-bottom-right-radius: 25px;
 
+    position: relative;
+    top: 50px;
+}
+.btn_index2 p {
+    color: #fff;
+    font-size: 21px;
+    line-height: 42px;
+    text-align: center;
+}
 .btn1 {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#de70b4+2,de4e8e+75,b93378+100 */
     background: #de70b4;
@@ -113,16 +135,37 @@ a:hover {
     /* IE6-9 */
 }
 
-.btn2 {}
+.btn2 {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0099d5+3,0071bc+62,004473+100 */
+background: #0099d5; /* Old browsers */
+background: -moz-linear-gradient(top, #0099d5 3%, #0071bc 62%, #004473 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #0099d5 3%,#0071bc 62%,#004473 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #0099d5 3%,#0071bc 62%,#004473 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099d5', endColorstr='#004473',GradientType=0 ); /* IE6-9 */}
 
-.btn2:hover {}
+.btn2:hover {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#004473+0,0071bc+43,0071bc+43,0099d5+100 */
+background: #004473; /* Old browsers */
+background: -moz-linear-gradient(top, #004473 0%, #0071bc 43%, #0071bc 43%, #0099d5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #004473 0%,#0071bc 43%,#0071bc 43%,#0099d5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #004473 0%,#0071bc 43%,#0071bc 43%,#0099d5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004473', endColorstr='#0099d5',GradientType=0 ); /* IE6-9 */}
 
-.btn3 {}
+.btn3 {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb779+20,fc8c5c+75,e06c46+100 */
+background: #ffb779; /* Old browsers */
+background: -moz-linear-gradient(top, #ffb779 20%, #fc8c5c 75%, #e06c46 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffb779 20%,#fc8c5c 75%,#e06c46 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffb779 20%,#fc8c5c 75%,#e06c46 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb779', endColorstr='#e06c46',GradientType=0 ); /* IE6-9 */}
 
-.btn3:hover {}
+.btn3:hover {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e06c46+0,fc8c5c+43,ffb779+100 */
+background: #e06c46; /* Old browsers */
+background: -moz-linear-gradient(top, #e06c46 0%, #fc8c5c 43%, #ffb779 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e06c46 0%,#fc8c5c 43%,#ffb779 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e06c46 0%,#fc8c5c 43%,#ffb779 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', endColorstr='#ffb779',GradientType=0 ); /* IE6-9 */}
 
 #btn_chose {
     width: 100%;
+    min-width: 800px;
     background-image: url(../images/bg_pattern.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -139,33 +182,51 @@ a:hover {
 }
 
 .btn_61 {
+	cursor: pointer;
     float: left;
     width: 15.5vw;
     height: 18vw;
+    max-height: 235px;
     max-width: 203px;
     background-image: url(../images/b_index_1.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     margin-left: 4vw;
+}
+.btn_61:hover{
+	background-image: url(../images/b_index_1_h.png);
 }
 
 .btn_62 {
+	cursor: pointer;
     float: left;
     width: 16vw;
     height: 18vw;
+    max-height: 235px;
     max-width: 203px;
     background-image: url(../images/b_index_2.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     margin-left:4vw;
 }
+.btn_62:hover{
+	background-image: url(../images/b_index_2_h.png);
+}
 
 .btn_63 {
+	cursor: pointer;
     float: left;
     width: 16vw;
     height: 18vw;
+    max-height: 235px;
     max-width: 203px;
     background-image: url(../images/b_index_3.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     margin-left: 4vw;
+}
+.btn_63:hover{
+	background-image: url(../images/b_index_3_h.png);
 }
 
 @media (max-width: 900px) {
@@ -194,16 +255,17 @@ a:hover {
 	    color: #6f6e6f;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	#main {
     background-color: #fcc0d7;
     width: 100%;
+    min-width: 800px;
     height: 1000px;
 }
 	.mainbg {
-	    width: 60vw;
+	    width: 467px;
 	    max-width: 467px;
-	    height: 60vw;
+	    height: 480px;
 	    margin:0 auto;
 	    position: relative;
 	    background-image: url(../images/photo_index_1.png);
@@ -215,13 +277,38 @@ a:hover {
 		margin:0 auto;
 	    height: auto;
 	    position: absolute;
-	    top: 75vw;
-	    left: 28%;
+	    top: 550px;
+	    left: 240px;
 	}
 	.icon_1{
 		float: left;
+		min-width: 300px;
 		height: 60px;
 		background-image: url(../images/icon_index_1.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		padding-left: 60px;
+		padding-bottom: 10px;
+		line-height: 60px;
+		border-bottom: 2px #fff solid ;
+	}
+	.icon_2{
+		float: left;
+		min-width: 300px;
+		height: 60px;
+		background-image: url(../images/icon_index_2.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		padding-left: 60px;
+		padding-bottom: 10px;
+		line-height: 60px;
+		border-bottom: 2px #fff solid ;
+	}
+	.icon_3{
+		float: left;
+		min-width: 300px;
+		height: 60px;
+		background-image: url(../images/icon_index_3.png);
 		background-repeat: no-repeat;
 		background-position: left;
 		padding-left: 60px;
@@ -265,32 +352,46 @@ a:hover {
 	    line-height: 60px;
 	    text-align: center;
 	}
+	.btns {
+	    width: 600px;
+	    height: 222px;
+	    /*background-color: #555;*/
+	    margin: 0 auto;
+	    position: relative;
+	    top: -65px;
+	}
 	.btn_61 {
 	    float: left;
-	    width: 20vw;
-	    height: 23vw;
+	    width: 176px;
+	    height: 192px;
+	    max-height: 235px;
 	    max-width: 203px;
 	    background-image: url(../images/b_index_1.png);
+	    background-repeat: no-repeat;
 	    background-size: 100%;
-	    margin-left: 0vw;
+	    margin-left: 24px;
 	}
 
 	.btn_62 {
 	    float: left;
-	    width: 20vw;
-	    height: 23vw;
+	    width: 176px;
+	    height: 192px;
+	    max-height: 235px;
 	    max-width: 203px;
 	    background-image: url(../images/b_index_2.png);
+	    background-repeat: no-repeat;
 	    background-size: 100%;
 	    margin-left:0vw;
 	}
 
 	.btn_63 {
 	    float: left;
-	    width: 20vw;
-	    height: 23vw;
+	    width: 176px;
+	    height: 192px;
+	    max-height: 235px;
 	    max-width: 203px;
 	    background-image: url(../images/b_index_3.png);
+	    background-repeat: no-repeat;
 	    background-size: 100%;
 	    margin-left: 0vw;
 	}
@@ -302,6 +403,7 @@ a:hover {
 .footer {
     clear: both;
     width: 100%;
+    min-width: 800px;
     height: 75px;
     background-color: #de4e8e;
     text-align: center;
