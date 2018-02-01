@@ -28,7 +28,7 @@ a:hover {
 }
 
 #main .logo {
-    width: 345px;
+    width: 420px;
     height: auto;
     padding: 0;
     position: absolute;
@@ -45,7 +45,7 @@ a:hover {
 .maincontent {
     height: auto;
     position: absolute;
-    top: 140px;
+    top: 46px;
     left: 20%;
 }
 
@@ -98,7 +98,7 @@ a:hover {
 		border-bottom: 2px #fff solid ;
 	}
 .mainbg {
-    width: 457px;
+    width: 380px;
     max-width: 467px;
     height: 412px;
     margin-left: 48%;
@@ -342,9 +342,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 
 
 	.icon_1{
-		width: 44vw;
+		width: 330px;
 		float: left;
-		min-width: 400px;
+		/* min-width: 400px; */
 		height: 60px;
 		background-image: url(../images/icon_index_1.png);
 		background-repeat: no-repeat;
@@ -355,9 +355,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 		border-bottom: 2px #fff solid ;
 	}
 	.icon_2{
-		width: 44vw;
+		width: 330px;
 		float: left;
-		min-width: 400px;
+		/* min-width: 400px; */
 		height: 60px;
 		background-image: url(../images/icon_index_2.png);
 		background-repeat: no-repeat;
@@ -368,9 +368,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 		border-bottom: 2px #fff solid ;
 	}
 	.icon_3{
-		width: 44vw;
+		width: 330px;
 		float: left;
-		min-width: 400px;
+		/* min-width: 400px; */
 		height: 60px;
 		background-image: url(../images/icon_index_3.png);
 		background-repeat: no-repeat;
@@ -403,10 +403,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	    width: 200px;
 	    height: 60px;
 	    border: 2px #fff solid;
-	    border-top-left-radius: 25px;
-	    border-top-right-radius: 25px;
-	    border-bottom-left-radius: 25px;
-	    border-bottom-right-radius: 25px;
+	    border-top-left-radius: 50px;
+	    border-top-right-radius: 50px;
+	    border-bottom-left-radius: 50px;
+	    border-bottom-right-radius: 50px;
 
 	    position: relative;
 	    top: 30px;
