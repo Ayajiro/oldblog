@@ -55,6 +55,7 @@ a:hover {
     color: #fff;
     top: 60px;
     left: 220px;
+    font-style: bold;
 }
 
 .title_s {
@@ -130,7 +131,7 @@ a:hover {
     line-height: 42px;
     text-align: center;
 }
-.colorinput{margin-top: 45px; width: 40vw;height:44px;min-width: 300px;}
+.colorinput{margin-top: 45px; width: 20vw;height:44px;min-width: 300px;}
 .theinput{width: 150px;}
 .theinput input{
 	float: left;
