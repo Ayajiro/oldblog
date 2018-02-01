@@ -20,7 +20,7 @@ a:hover {
   color: #bbbbbb;
 }
 
-#slid1,#slid2	{display: none;}
+#slid3,#slid2	{display: none;}
 #main {
     background-color: #fcc0d7;
     width: 100%;
@@ -101,7 +101,7 @@ a:hover {
     width: 457px;
     max-width: 467px;
     height: 412px;
-    margin-left: 46%;
+    margin-left: 48%;
     position: relative;
     background-image: url(../images/photo_index_1.png);
     background-repeat: no-repeat;
