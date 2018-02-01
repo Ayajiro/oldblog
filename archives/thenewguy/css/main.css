@@ -33,11 +33,12 @@ a:hover {
 .maincontent {
     height: auto;
     position: absolute;
-    top: 180px;
+    top: 140px;
     left: 20%;
 }
 
 .title_l {
+	width: 100%;
     font-size: 60px;
     color: #fff;
     top: 60px;
@@ -50,11 +51,43 @@ a:hover {
     padding-left: 3px;
     color: #6f6e6f;
 }
-
+	.icon_1{
+		height: 60px;
+		background-image: url(../images/icon_index_1.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		padding-left: 60px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		line-height: 60px;
+		border-bottom: 2px #fff solid ;
+	}
+		.icon_2{
+		height: 60px;
+		background-image: url(../images/icon_index_2.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		padding-left: 60px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		line-height: 60px;
+		border-bottom: 2px #fff solid ;
+	}
+	.icon_3{
+		height: 60px;
+		background-image: url(../images/icon_index_3.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		padding-left: 60px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		line-height: 60px;
+		border-bottom: 2px #fff solid ;
+	}
 .mainbg {
-    width: 467px;
+    width: 457px;
     max-width: 467px;
-    height: 410px;
+    height: 412px;
     margin-left: 46%;
     position: relative;
     background-image: url(../images/photo_index_1.png);
@@ -85,7 +118,7 @@ a:hover {
     line-height: 42px;
     text-align: center;
 }
-.colorinput{margin-top: 45px; width: 50vw;height:44px;min-width: 383px;}
+.colorinput{margin-top: 45px; width: 40vw;height:44px;min-width: 300px;}
 .theinput{width: 150px;}
 .theinput input{
 	float: left;
@@ -265,6 +298,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	
 	.theinput{width: 185px;}
 	
+	.icon_1,.icon_2,.icon_3{width: 160px;}
 }
 @media (max-width: 800px) {
 	#main {
@@ -295,6 +329,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 
 
 	.icon_1{
+		width: 44vw;
 		float: left;
 		min-width: 300px;
 		height: 60px;
@@ -307,6 +342,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 		border-bottom: 2px #fff solid ;
 	}
 	.icon_2{
+		width: 44vw;
 		float: left;
 		min-width: 300px;
 		height: 60px;
@@ -319,6 +355,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 		border-bottom: 2px #fff solid ;
 	}
 	.icon_3{
+		width: 44vw;
 		float: left;
 		min-width: 300px;
 		height: 60px;
@@ -411,7 +448,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	    background-image: url(../images/b_index_1.png);
 	    background-repeat: no-repeat;
 	    background-size: 100%;
-	    margin-left: 24px;
+	    margin-left: 20px;
 	}
 
 	.btn_62 {
