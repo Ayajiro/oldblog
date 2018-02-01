@@ -344,7 +344,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	.icon_1{
 		width: 44vw;
 		float: left;
-		min-width: 300px;
+		min-width: 400px;
 		height: 60px;
 		background-image: url(../images/icon_index_1.png);
 		background-repeat: no-repeat;
@@ -357,7 +357,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	.icon_2{
 		width: 44vw;
 		float: left;
-		min-width: 300px;
+		min-width: 400px;
 		height: 60px;
 		background-image: url(../images/icon_index_2.png);
 		background-repeat: no-repeat;
@@ -370,7 +370,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	.icon_3{
 		width: 44vw;
 		float: left;
-		min-width: 300px;
+		min-width: 400px;
 		height: 60px;
 		background-image: url(../images/icon_index_3.png);
 		background-repeat: no-repeat;
@@ -386,6 +386,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	    color: #fff;
 	    top: 60px;
 	    left: 220px;
+	    font-weight: normal;
 	}
 
 	.title_s {
