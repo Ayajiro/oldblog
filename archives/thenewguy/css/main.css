@@ -45,7 +45,7 @@ a:hover {
 .maincontent {
     height: auto;
     position: absolute;
-    top: 46px;
+    top: 150px;
     left: 20%;
 }
 
@@ -98,7 +98,7 @@ a:hover {
 		border-bottom: 2px #fff solid ;
 	}
 .mainbg {
-    width: 380px;
+    width:460px;
     max-width: 467px;
     height: 412px;
     margin-left: 48%;
@@ -139,8 +139,8 @@ a:hover {
 	height: 40px;
 	font-size: 20px;
 	padding-left: 20px;
-	border-top-left-radius: 25px;
-	border-bottom-left-radius: 25px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
 }
 input:focus{outline:none}
 .btn_index2 {
@@ -321,7 +321,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
     height: 1000px;
 	}
 	.mainbg {
-	    width: 467px;
+	    width: 420px;
 	    max-width: 467px;
 	    height: 480px;
 	    margin:0 auto;
@@ -336,7 +336,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	    height: auto;
 	    position: relative;
 	    	width: 50%;
-    top: 120px;
+    top: 46px;
     left: 0%;
 	}
 
@@ -409,7 +409,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	    border-bottom-right-radius: 50px;
 
 	    position: relative;
-	    top: 30px;
+	    top: 50px;
 	    margin:0 auto;
 	}
 
@@ -426,8 +426,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	    width: 150px;
 	    height: 60px;
 	    border: 2px #fff solid;
-	    border-top-right-radius: 25px;
-	    border-bottom-right-radius: 25px;
+	    border-top-right-radius: 50px;
+	    border-bottom-right-radius: 50px;
 	    top: 50px;
 	}
 	.btn_index2 p {
@@ -436,14 +436,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	    line-height: 60px;
 	    text-align: center;
 	}
+	.theinput{width: 205px;}
 	.theinput input{
 	float: left;
 	width: 100%;
 	height: 60px;
 	font-size: 25px;
 	padding-left: 20px;
-	border-top-left-radius: 25px;
-	border-bottom-left-radius: 25px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
 }
 	.btns {
 	    width: 800px;
