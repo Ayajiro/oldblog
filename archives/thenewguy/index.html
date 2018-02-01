@@ -51,23 +51,30 @@
                 <br>
             </p>
             <div class="colorinput">
-                <input type="number" name="tel">
+                <div class="theinput">
+                    <input type="text" name="tel"  placeholder="請輸入手機號碼">
+                </div>
                 <div class="btn_index2 btn2">
-                    <p>開始取號</p>
+                        <p>開始預約</p>
                 </div>
             </div>
         </div>
         <!-- 主體區塊3 -->
         <div class="maincontent" id="slid3">
             <div class="icon_3">
-                <p class="title_l">預約取號查詢</p>
+                <p class="title_l">預約查詢</p>
             </div>
             <p class="title_s">預約可保留七天
                 <br>隨時可以查詢及取消
                 <br>
             </p>
-            <div class="btn_index btn3">
-                <p>開始取號</p>
+            <div class="colorinput">
+                <div class="theinput">
+                    <input type="text" name="tel"  placeholder="請輸入手機號碼">
+                </div>
+                <div class="btn_index2 btn3">
+                        <p>開始查詢</p>
+                </div>
             </div>
         </div>
     </div>
@@ -87,22 +94,22 @@
     console.log("load finishi")
     $("#btn_slid1").click(function() {
         $("#slid1").fadeIn("slow", function() {});
-        $("#slid2").fadeOut("slow", function() {});
-        $("#slid3").fadeOut("slow", function() {});
+        $("#slid2").hide();
+        $("#slid3").hide();
         $("#main").css("background-color", "#fcc0d7");
         $(".mainbg").css("background-image", "url(images/photo_index_1.png)");
     });
     $("#btn_slid2").click(function() {
         $("#slid2").fadeIn("slow", function() {});
-        $("#slid1").fadeOut("slow", function() {});
-        $("#slid3").fadeOut("slow", function() {});
+        $("#slid1").hide();
+        $("#slid3").hide();
         $("#main").css("background-color", "#b4e6f4");
         $(".mainbg").css("background-image", "url(images/photo_index_2.png)");
     });
     $("#btn_slid3").click(function() {
         $("#slid3").fadeIn("slow", function() {});
-        $("#slid2").fadeOut("slow", function() {});
-        $("#slid1").fadeOut("slow", function() {});
+        $("#slid2").hide();
+        $("#slid1").hide();
         $("#main").css("background-color", "#fee3a1");
         $(".mainbg").css("background-image", "url(images/photo_index_3.png)");
     });

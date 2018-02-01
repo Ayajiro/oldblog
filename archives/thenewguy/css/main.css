@@ -8,7 +8,7 @@ a:hover {
     color: inherit;
 }
 
-#slid2,#slid3{display: none;}
+#slid1,#slid2	{display: none;}
 #main {
     background-color: #fcc0d7;
     width: 100%;
@@ -33,7 +33,7 @@ a:hover {
 .maincontent {
     height: auto;
     position: absolute;
-    top: 120px;
+    top: 180px;
     left: 20%;
 }
 
@@ -85,20 +85,28 @@ a:hover {
     line-height: 42px;
     text-align: center;
 }
-.colorinput{width: 100px;}
-.colorinput input{float: left;}
+.colorinput{margin-top: 45px; width: 50vw;height:44px;min-width: 383px;}
+.theinput{width: 150px;}
+.theinput input{
+	float: left;
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	padding-left: 20px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+input:focus{outline:none}
 .btn_index2 {
 	float: left;
 	cursor: pointer;
-    width: 150px;
+    width: 120px;
     height: 40px;
     border: 2px #fff solid;
-    
     border-top-right-radius: 25px;
-    
     border-bottom-right-radius: 25px;
 
-    position: relative;
+    /*position: relative;*/
     top: 50px;
 }
 .btn_index2 p {
@@ -254,6 +262,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	    padding-left: 3px;
 	    color: #6f6e6f;
 	}
+	
+	.theinput{width: 185px;}
+	
 }
 @media (max-width: 800px) {
 	#main {
@@ -261,7 +272,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
     width: 100%;
     min-width: 800px;
     height: 1000px;
-}
+	}
 	.mainbg {
 	    width: 467px;
 	    max-width: 467px;
@@ -276,10 +287,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	.maincontent {
 		margin:0 auto;
 	    height: auto;
-	    position: absolute;
-	    top: 550px;
-	    left: 240px;
+	    position: relative;
+	    	width: 50%;
+    top: 120px;
+    left: 0%;
 	}
+
+
 	.icon_1{
 		float: left;
 		min-width: 300px;
@@ -318,7 +332,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	}
 	.title_l {
 		float: left;
-	    font-size: 60px;
+	    font-size: 80px;
 	    color: #fff;
 	    top: 60px;
 	    left: 220px;
@@ -330,6 +344,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	    line-height: 30px;
 	    padding-left: 3px;
 	    color: #6f6e6f;
+	    font-size: 40px;
+	    line-height: 50px;
 	}
 	
 	.btn_index {
@@ -342,7 +358,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	    border-bottom-right-radius: 25px;
 
 	    position: relative;
-	    top: 50px;
+	    top: 30px;
 	    margin:0 auto;
 	}
 
@@ -352,8 +368,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	    line-height: 60px;
 	    text-align: center;
 	}
+	.colorinput{margin-top: 55px; width: 50vw;height:60px;min-width: 383px;}
+	.btn_index2 {
+		float: left;
+		cursor: pointer;
+	    width: 150px;
+	    height: 60px;
+	    border: 2px #fff solid;
+	    border-top-right-radius: 25px;
+	    border-bottom-right-radius: 25px;
+	    top: 50px;
+	}
+	.btn_index2 p {
+	    color: #fff;
+	    font-size: 30px;
+	    line-height: 60px;
+	    text-align: center;
+	}
+	.theinput input{
+	float: left;
+	width: 100%;
+	height: 60px;
+	font-size: 25px;
+	padding-left: 20px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
 	.btns {
-	    width: 600px;
+	    width: 800px;
 	    height: 222px;
 	    /*background-color: #555;*/
 	    margin: 0 auto;
@@ -362,10 +404,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	}
 	.btn_61 {
 	    float: left;
-	    width: 176px;
-	    height: 192px;
-	    max-height: 235px;
-	    max-width: 203px;
+	    width: 255px;
+	    height: 280px;
+	    max-height: 280px;
+	    max-width: 255px;
 	    background-image: url(../images/b_index_1.png);
 	    background-repeat: no-repeat;
 	    background-size: 100%;
@@ -374,22 +416,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 
 	.btn_62 {
 	    float: left;
-	    width: 176px;
-	    height: 192px;
-	    max-height: 235px;
-	    max-width: 203px;
+	    width: 255px;
+	    height: 280px;
+	    max-height: 280px;
+	    max-width: 255px;
 	    background-image: url(../images/b_index_2.png);
 	    background-repeat: no-repeat;
 	    background-size: 100%;
 	    margin-left:0vw;
 	}
-
+	#btn_chose{height: 280px;background-size: 300px 280px;}
 	.btn_63 {
 	    float: left;
-	    width: 176px;
-	    height: 192px;
-	    max-height: 235px;
-	    max-width: 203px;
+	    width: 255px;
+	    height: 280px;
+	    max-height: 280px;
+	    max-width: 255px;
 	    background-image: url(../images/b_index_3.png);
 	    background-repeat: no-repeat;
 	    background-size: 100%;
