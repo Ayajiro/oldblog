@@ -51,7 +51,7 @@ a:hover {
 .spotTable { clear: both; /*padding-top: 40px;*/ margin:30px 0;}
 .spotTable h3 { font-size: 28px; color: #C00; }
 .spotTable table { width: 100%; border-collapse: separate;  }
-.spotTable tr:first-child {color: #de4e8e;}
+.spotTable tr:first-child {color: #de4e8e;text-align: center;}
 .last_tb_color tr:first-child{color: #4f4c4b;}
 .spotTable th, .spotTable td { border-right: 1px solid #ffedfa; border-bottom: 1px solid #ffedfa; padding: 10px 5px; vertical-align: middle; }
 .spotTable tr:first-child th, .spotTable tr:first-child td { border-top: 1px solid #ffedfa; }
@@ -60,16 +60,18 @@ a:hover {
 .spotTable tr:last-child th:first-child { border-bottom-left-radius: 20px;}
 .spotTable tr:first-child td:last-child { border-top-right-radius: 20px;}
 .spotTable tr:last-child td:last-child { border-bottom-right-radius: 20px;}
+.spotTable tr th{min-width: 150px;}
 .spotTable tr td:nth-child(4){text-align: center;width: 8%;}
-.spotTable tr td:nth-child(2){text-align: center;width: 10%;}
+.spotTable tr td:nth-child(2){text-align: center;width: 10%;min-width: 150px;}
 .spotTable tr td:nth-child(3){width: 40%;}
+.spotTable tr:not(:first-child) td:nth-child(3){padding-left: 15px;}
 .spotTable tr:not(:first-child) td:nth-child(4){background-image: url(../images/icon_map1.png);background-position: center; background-repeat: no-repeat;-webkit-background-size: 20px;
 background-size: 20px;cursor: pointer;}
 .last_tb_color tr td:nth-child(4){background-image: url(../images/icon_map1.png);background-position: center; background-repeat: no-repeat;-webkit-background-size: 20px;
 background-size: 20px;cursor: pointer;}
 /*首列*/
 .spotTable th { background-color: #fff; font-weight: normal; width: 19%; line-height: 18px; }
-.spotTable th input{margin-right: 15px;margin-left: -10%}
+.spotTable th input{margin-right: 15px;margin-left: -15%}
 .spotTable td { background-color: #FFF; width: 27%; }
 .spotTable tr:not(:first-child):hover td,.spotTable tr:not(:first-child):hover th{background-color: #f5d3ec;}
 .last_tb_color tr:hover td,.last_tb_color tr:hover th{background-color: #f5d3ec;}
