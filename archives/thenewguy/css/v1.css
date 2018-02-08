@@ -1,0 +1,107 @@
+body {
+    font: 18px "微軟正黑體", "Helvetica Neue", "Microsoft JhengHei", Helvetica, Arial, sans-serif;color:#4f4c4b;
+}
+
+a {}
+
+a:hover {
+    color: inherit;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #bbbbbb;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #bbbbbb;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #bbbbbb;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #bbbbbb;
+}
+.pink_b{color: #de4e8e;font-weight: bold;}
+
+#slid3,#slid2	{display: none;}
+#main {
+    float: left;
+	min-width: 800px;
+    background-color: #ffedfa;
+    width: 100%;
+    /*height: 500px;*/
+}
+#head{width: 100Vw;height: 126px;background-image: url(../images/bg_pattern2.png);background-position: right;background-repeat: no-repeat;min-width: 800px;}
+#head .logo_v2 {
+    width: 345px;
+    height: auto;
+    padding: 0;
+    position: absolute;
+    top: 42px;
+    left: 46px;
+}
+
+#head .logo_v2 img {
+    width: 100%;
+}
+
+#top_bg{width: 100%;height: 131px;background-image: url(../images/title_service1.png);background-position: center; background-repeat: no-repeat;position: relative; top: -23px;}
+
+.steps{width: 100%;height: 45px;background-image: url(../images/step1.png);background-position: center;background-repeat: no-repeat;}
+.last_use{width: 80%;height: auto;margin: 30px auto;}
+.search_v1{width: 80%;height: auto;margin: 0 auto;}
+.spotTable { clear: both; /*padding-top: 40px;*/ margin:30px 0;}
+.spotTable h3 { font-size: 28px; color: #C00; }
+.spotTable table { width: 100%; border-collapse: separate;  }
+.spotTable tr:first-child {color: #de4e8e;text-align: center;}
+.last_tb_color tr:first-child{color: #4f4c4b;}
+.spotTable th, .spotTable td { border-right: 1px solid #ffedfa; border-bottom: 1px solid #ffedfa; padding: 10px 5px; vertical-align: middle; }
+.spotTable tr:first-child th, .spotTable tr:first-child td { border-top: 1px solid #ffedfa; }
+.spotTable th:nth-child(1) { border-left: 1px solid #ffedfa; }
+.spotTable tr:first-child th:first-child { border-top-left-radius: 20px; }
+.spotTable tr:last-child th:first-child { border-bottom-left-radius: 20px;}
+.spotTable tr:first-child td:last-child { border-top-right-radius: 20px;}
+.spotTable tr:last-child td:last-child { border-bottom-right-radius: 20px;}
+.spotTable tr td:nth-child(2){text-align: center;width: 15%}
+.spotTable tr:not(:first-child) td:nth-child(4){background-image: url(../images/icon_map1.png);background-position: center; background-repeat: no-repeat;-webkit-background-size: 10%;
+background-size: 8%;cursor: pointer;}
+.last_tb_color tr td:nth-child(4){background-image: url(../images/icon_map1.png);background-position: center; background-repeat: no-repeat;-webkit-background-size: 10%;
+background-size: 8%;cursor: pointer;}
+/*首列*/
+.spotTable th { background-color: #fff; font-weight: normal; width: 19%; line-height: 18px; }
+.spotTable th input{margin-right: 15px;}
+.spotTable td { background-color: #FFF; width: 27%; }
+.spotTable tr:not(:first-child):hover td,.spotTable tr:not(:first-child):hover th{background-color: #e598cb;}
+.last_tb_color tr:hover td,.last_tb_color tr:hover th{background-color: #e598cb;}
+/*表格顏色*/
+/*.spotTable tr:first-child td:nth-child(2) { background-color: #daede9; }
+.spotTable tr:first-child td:nth-child(3) { background-color: #f5f0dc; }
+.spotTable tr:first-child td:nth-child(4) { background-color: #daeada; }
+*/
+/*.spotTable table th span { display: block; font-size: 13px; }*/
+/*.spotTable tr:nth-child(1) td { font-weight: bold; }*/
+/*.spotTable tr:nth-child(3) td { font-size: 20px;}*/
+/*.spotTable tr:nth-child(4) td { font-size: 24px;}*/
+/*.spotTable h4 { text-align: center; color: #C00; font-size: 20px; font-weight: normal; }*/
+.search_area{ width: 82%;height: auto; display:inline-block;margin: 30px 9%;background-color: #de70b4;border-top-left-radius: 20px;border-top-right-radius: 20px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
+.btn_search{width: 83px;height: 34px;background-image: url(../images/btn_search.png);float: right;margin: 10px 30px 15px 0px;cursor: pointer;}
+@media (max-width: 900px) {
+	
+}
+@media (max-width: 800px) {
+	}
+
+
+
+.footer {
+    clear: both;
+    width: 100%;
+    min-width: 800px;
+    height: 75px;
+    background-color: #de4e8e;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
+
+.footer p {
+    padding-top: 20px;
+}
