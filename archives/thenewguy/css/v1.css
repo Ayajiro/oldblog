@@ -60,17 +60,19 @@ a:hover {
 .spotTable tr:last-child th:first-child { border-bottom-left-radius: 20px;}
 .spotTable tr:first-child td:last-child { border-top-right-radius: 20px;}
 .spotTable tr:last-child td:last-child { border-bottom-right-radius: 20px;}
-.spotTable tr td:nth-child(2){text-align: center;width: 15%}
+.spotTable tr td:nth-child(4){text-align: center;width: 5%;}
+.spotTable tr td:nth-child(2){text-align: center;width: 10%;}
+.spotTable tr td:nth-child(3){text-align: center;width: 40%;}
 .spotTable tr:not(:first-child) td:nth-child(4){background-image: url(../images/icon_map1.png);background-position: center; background-repeat: no-repeat;-webkit-background-size: 10%;
-background-size: 8%;cursor: pointer;}
+background-size: 15%;cursor: pointer;}
 .last_tb_color tr td:nth-child(4){background-image: url(../images/icon_map1.png);background-position: center; background-repeat: no-repeat;-webkit-background-size: 10%;
-background-size: 8%;cursor: pointer;}
+background-size: 15%;cursor: pointer;}
 /*首列*/
 .spotTable th { background-color: #fff; font-weight: normal; width: 19%; line-height: 18px; }
 .spotTable th input{margin-right: 15px;}
 .spotTable td { background-color: #FFF; width: 27%; }
-.spotTable tr:not(:first-child):hover td,.spotTable tr:not(:first-child):hover th{background-color: #e598cb;}
-.last_tb_color tr:hover td,.last_tb_color tr:hover th{background-color: #e598cb;}
+.spotTable tr:not(:first-child):hover td,.spotTable tr:not(:first-child):hover th{background-color: #f5d3ec;}
+.last_tb_color tr:hover td,.last_tb_color tr:hover th{background-color: #f5d3ec;}
 /*表格顏色*/
 /*.spotTable tr:first-child td:nth-child(2) { background-color: #daede9; }
 .spotTable tr:first-child td:nth-child(3) { background-color: #f5f0dc; }
