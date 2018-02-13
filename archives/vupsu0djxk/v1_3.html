@@ -9,7 +9,8 @@
     <!-- <title>台灣銀行｜智慧取號系統</title> -->
     <!--Css-->
     <link href="css/reset.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    
+    <link href="css/normal.css" rel="stylesheet" />
     <link href="css/v1.css" rel="stylesheet" />
     <!-- Meta -->
     <meta name="title" content=" " />
@@ -23,6 +24,14 @@
     <meta property="og:image" content=" " />
     <meta property="og:description" content=" " />
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.preload.min.js"></script>
+    <script type="text/javascript">
+        $.preload( 'images/b_save1.png',
+                   'images/b_save1_h.png',
+                   'images/b_print1.png',
+                   'images/b_print1_h.png'
+        );
+    </script>
 </head>
 
 <body>
@@ -33,7 +42,10 @@
     <div id="main">
         <div id="top_bg" class="top_bg"></div>
         <!-- steps -->
-        <div class="steps3"></div>
+        <div class="steps3">
+            <a href="v1_1.html" class="back_step1"></a>
+            <a href="v1_2.html" class="back_step2"></a>
+        </div>
         <!-- last use -->
         <div class="center_area ticket_area ">
             <div class="ticket">
@@ -64,15 +76,7 @@
             <br> 建議瀏覽版本：IE10.0以上 解析度1280X800 ｜ 2018 Bank of Taiwan. All rights reserved.
         </p>
     </div>
-    <script src="js/classie.js"></script>
-    <script src="js/selectFx.js"></script>
-    <script>
-    (function() {
-        [].slice.call(document.querySelectorAll('select.cs-select')).forEach(function(el) {
-            new SelectFx(el);
-        });
-    })();
-    </script>
+    
 </body>
 
 </html>

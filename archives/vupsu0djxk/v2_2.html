@@ -9,8 +9,8 @@
     <!-- <title>台灣銀行｜智慧取號系統</title> -->
     <!--Css-->
     <link href="css/reset.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link href="css/v1.css" rel="stylesheet" />
+    <link href="css/normal.css" rel="stylesheet" />
+    <link href="css/v2.css" rel="stylesheet" />
     <!-- Meta -->
     <meta name="title" content=" " />
     <meta name="description" content=" " />
@@ -23,6 +23,18 @@
     <meta property="og:image" content=" " />
     <meta property="og:description" content=" " />
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.preload.min.js"></script>
+    <script type="text/javascript">
+        $.preload( 'images/b_get1.png',
+                   'images/b_get1_h.png',
+                   'images/b_get2.png',
+                   'images/b_get2_h.png',
+                   'images/b_get3.png',
+                   'images/b_get3_h.png',
+                   'images/b_get4.png',
+                   'images/b_get4_h.png'
+        );
+    </script>
 </head>
 
 <body>
@@ -33,45 +45,38 @@
     <div id="main">
         <div id="top_bg" class="top_bg"></div>
         <!-- steps -->
-        <div class="steps2"></div>
+        <div class="steps2">
+            <a href="v2_1.html" class="back_step1"></a>
+        </div>
         <!-- last use -->
         <div class="center_area spot_info">
             <p class="spot_info_p text_left">服務據點</p>
-            <p class="spot_info_p text_right">資料時間：2018/02/02 13:38:09</p>
+            <p class="spot_info_p text_right"></p>
             <hr>
             <p class="spot_title">營業部</p>
             <p class="spot_phone">02-23493456</p>
             <p class="spot_address">台北市中正區重慶南路一段120號</p>
-            <div class="btn_renew"></div>
         </div>
         <div class="center_area service_area">
             <div class="service s1">
                 <p class="service_title">一般收付</p>
                 <p class="service_ty">存款<br>代收款項<br>貸款繳息</p>
-                <p class="service_tw">1023</p>
-                <p class="service_tc c1">13</p>
-                <a href="v1_3.html"><div class="btn_take take1"></div></a>
+                <a href="v2_3.html"><div class="btn_take take1"></div></a>
             </div>
             <div class="service s2">
                  <p class="service_title">收付</p>
                 <p class="service_ty">存款<br>代收款項<br>貸款繳息</p>
-                <p class="service_tw">103</p>
-                <p class="service_tc c2">13</p>
-                <a href="v1_3.html"><div class="btn_take take2"></div></a>
+                <a href="v2_3.html"><div class="btn_take take2"></div></a>
             </div>
             <div class="service s3">
                  <p class="service_title">收付</p>
                 <p class="service_ty">存款<br>代收款項<br>貸款繳息</p>
-                <p class="service_tw">103</p>
-                <p class="service_tc c3">13</p>
-                <a href="v1_3.html"><div class="btn_take take3"></div></a>
+                <a href="v2_3.html"><div class="btn_take take3"></div></a>
             </div>
             <div class="service s4">
                  <p class="service_title">收付</p>
                 <p class="service_ty">存款<br>代收款項<br>貸款繳息</p>
-                <p class="service_tw">103</p>
-                <p class="service_tc c4">13</p>
-                <a href="v1_3.html"><div class="btn_take take4"></div></a>
+                <a href="v2_3.html"><div class="btn_take take4"></div></a>
             </div>
         </div>
         
@@ -81,15 +86,7 @@
             <br> 建議瀏覽版本：IE10.0以上 解析度1280X800 ｜ 2018 Bank of Taiwan. All rights reserved.
         </p>
     </div>
-    <script src="js/classie.js"></script>
-    <script src="js/selectFx.js"></script>
-    <script>
-    (function() {
-        [].slice.call(document.querySelectorAll('select.cs-select')).forEach(function(el) {
-            new SelectFx(el);
-        });
-    })();
-    </script>
+    
 </body>
 
 </html>
