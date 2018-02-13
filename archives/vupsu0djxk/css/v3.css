@@ -39,7 +39,7 @@ background-image   : url(../images/receipt1.png),
                        
                        bottom;}
 .ticket_used{float: left; width: 359px;height: auto;
-background-image   : url(../images/receipt1_U.png),
+background-image   : url(../images/receipt1_u.png),
                        url(../images/receipt3_u.png);
 
   background-repeat  : no-repeat,
