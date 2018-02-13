@@ -22,8 +22,8 @@
 
 .last_use{margin: 30px auto;}
 .search_area{overflow: inherit; display:inline-block;margin: 30px 15%;background-color: #0071bc;border-top-left-radius: 20px;border-top-right-radius: 20px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
-.spot_info{width: 600px;}
-.service_area{margin: 30px 15%;display: flex;justify-content: center;}
+.spot_info{width: 600px;overflow: inherit;}
+.service_area{margin: 30px 15%;display: flex;justify-content: center;overflow: inherit;}
 .ticket_btn{width: 349px;display: flex;justify-content: space-between;}
 .notice_area{width: 45%;height: auto;margin: 60px auto;
     background-color: #becfe7; border-top-right-radius: 25px;border-top-left-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;}
