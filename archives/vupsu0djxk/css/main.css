@@ -491,11 +491,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 }
 
 
-
 .footer {
     clear: both;
     width: 100%;
-    min-width: 800px;
+    min-width: 760px;
     height: 75px;
     background-color: #de4e8e;
     text-align: center;
@@ -503,6 +502,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
     font-size: 13px;
 }
 
-.footer p {
+.footer p:first-child {
+	display: block;
     padding-top: 20px;
+}
+.footer p:last-child{
+	display: none;
+}
+@media (max-width: 800px) {
+
+	.footer{
+		height: auto;
+		font-size: 25px;
+		padding: 20px;
+		width: 760px;
+	}
+	.footer p:first-child {
+	    display: none;
+	}
+	.footer p:last-child{
+		display: block;
+		width: 760px;
+	}
 }
