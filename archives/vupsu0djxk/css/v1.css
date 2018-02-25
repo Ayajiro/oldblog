@@ -47,8 +47,8 @@
 .take3:hover{background-image: url(../images/b_get3_h.png);}
 .take4{background-image: url(../images/b_get4.png);}
 .take4:hover{background-image: url(../images/b_get4_h.png);}
-/*.btn_save{ width: 170px;height: 43px;background-image: url(../images/b_save1.png);cursor: pointer;}*/
-.btn_save{ width: 340px;height: 57px;background-image: url(../images/b_save1.png);cursor: pointer;-webkit-background-size: 100% 100%;
+.btn_save{ width: 170px;height: 43px;background-image: url(../images/b_save1.png);cursor: pointer;}
+
 background-size: 100% 100%;}
 .btn_save:hover{background-image: url(../images/b_save1_h.png);}
 .btn_print{ width: 170px;height: 43px;background-image: url(../images/b_print1.png);cursor: pointer;}
@@ -83,7 +83,7 @@ background-size: 20px;cursor: pointer;}
 .spotTable tr:not(:first-child):hover td,.spotTable tr:not(:first-child):hover th{background-color: #f5d3ec;}
 .last_tb_color tr:hover td,.last_tb_color tr:hover th{background-color: #f5d3ec;}
 
-.input_road{float: left; width: 219px;margin: 15px 0 15px 20px;height: 42px;}
+.input_road{float: left; width: 219px;margin: 15px 20px 15px 20px;height: 42px;}
 .input_road input{width: 200px;height: 42px;font-size: 18px;padding-left: 15px;border:2px solid #de4e8e;}
 .input_road input:focus{outline: none;}
 
@@ -153,7 +153,35 @@ background-image   : url(../images/receipt1.png),
 }
 @media (max-width: 800px) {
   #main ,section,table{font-size: 25px;}
+  .input_road{margin: 15px 20px 30px 20px;}
   .input_road input{font-size: 25px;}
+
+  .spotTable th input{margin-left:0;}
+  .spot_info_p{font-size: 20px;}
+  .ticket_area{ display: flex;justify-content: center;margin: 50px auto;}
+  .ticket{
+    float: left; width: 100%;height: auto;
+    background-image   : url(../images/receipt1.png),
+               url(../images/receipt3.png);
+
+    background-repeat  : no-repeat,
+               
+               no-repeat;
+
+    background-position: top,
+               
+               bottom;
+    background-size: 100%,100%;}
+  .ticket_in{float: left; width: 100%;height: auto;margin: 60px 0 ;background-image: url(../images/receipt2.png);text-align: center; font-size: 25px;line-height: 30px;-webkit-background-size: 100%;
+    background-size: 100%;}
+  .ticket_title{font-size: 45px;padding-bottom: 10px;line-height: 45px;}
+  .ticket_number{font-size: 120px;padding-bottom: 10px;line-height: 120px;margin: 30px auto;}
+  .hr_dot{width: 90%;border-bottom: 1px #666 dashed;margin:30px auto;}
+  .ticket_btn{width: 560px;}
+  .btn_save{ width: 280px;height: 70px;background-image: url(../images/b_save1.png);cursor: pointer;background-size: 100% 100%;}
+  .btn_print{ width: 280px;height: 70px;background-image: url(../images/b_print1.png);cursor: pointer;background-size: 100% 100%;}
+  .notice_area{width: 560px;font-size: 25px;height: auto;}
+  .notice_area p{font-size: 25px;}
 	}
 
 
