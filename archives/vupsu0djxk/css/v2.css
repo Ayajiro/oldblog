@@ -24,10 +24,10 @@
 .search_area{overflow: inherit; display:inline-block;margin: 30px 15%;background-color: #0071bc;border-top-left-radius: 20px;border-top-right-radius: 20px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
 .spot_info{width: 600px;overflow: inherit;}
 .service_area{margin: 30px 15%;display: flex;justify-content: center;overflow: inherit;}
-.ticket_btn{width: 349px;display: flex;justify-content: space-between;}
-.notice_area{width: 45%;height: auto;margin: 60px auto;
+.ticket_btn{width: 349px;display: flex;justify-content: space-between;margin-bottom: 60px;}
+.notice_area{width: 45%;height: auto;margin: 30px auto;
     background-color: #becfe7; border-top-right-radius: 25px;border-top-left-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;}
-.notice_area p{padding:20px 20px;font-size: 15px;text-align: center;}
+.notice_area p{padding:20px 20px;font-size: 20px;text-align: center;}
 /*btn*/
 .btn_search{width: 87px;height: 35px;background-image: url(../images/b_search2.png);float: right;margin: 20px 30px 15px 0px;cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
 .btn_search:hover{background-image: url(../images/b_search2_h.png);}
@@ -151,7 +151,7 @@ background-image   : url(../images/receipt1.png),
 @media (max-width: 900px) {
 }
 @media (max-width: 800px) {
-  #main ,section,table{font-size: 25px;}
+  #main ,section,table{font-size: 1.2em;}
   #main{padding-bottom:60px;}
   .input_road{margin: 15px 20px 30px 20px;}
   .input_road input{font-size: 25px;}

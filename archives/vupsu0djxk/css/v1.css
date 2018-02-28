@@ -23,10 +23,10 @@
 .search_area{overflow: inherit; display:inline-block;margin: 30px 15%;background-color: #de70b4;border-top-left-radius: 20px;border-top-right-radius: 20px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
 .spot_info{width: 600px;overflow: inherit;}
 .service_area{margin: 30px 15%;display: flex;justify-content: center;}
-.ticket_btn{width: 349px;display: flex;justify-content: space-between;}
-.notice_area{width: 55%;height: 66px;margin: 60px auto;
+.ticket_btn{width: 349px;display: flex;justify-content: space-between;margin-bottom: 60px;}
+.notice_area{width: 45%;height: auto;margin: 30px auto;
     background-color: #f5c8e5; border-top-right-radius: 25px;border-top-left-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;}
-.notice_area p{padding:20px 20px;font-size: 15px;text-align: center;}
+.notice_area p{padding:20px 20px;font-size: 20px;text-align: center;}
 /*btn*/
 .btn_search{width: 87px;height: 35px;background-image: url(../images/b_search1.png);float: right;margin: 20px 30px 15px 0px;cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
 .btn_search:hover{background-image: url(../images/b_search1_h.png);}
@@ -95,7 +95,7 @@ background-size: 20px;cursor: pointer;}
 
 
 
-.service{ width: 24%;height: 450px;background-repeat: no-repeat;background-position:top center; min-width: 223px;}
+.service{ width: 22%;height: 450px;background-repeat: no-repeat;background-position:top center; min-width: 223px;}
 .s1{background-image: url(../images/s1_item1.png);}
 .s2{background-image: url(../images/s1_item2.png);}
 .s3{background-image: url(../images/s1_item3.png);}
@@ -150,7 +150,7 @@ background-image   : url(../images/receipt1.png),
 	
 }
 @media (max-width: 800px) {
-  #main ,section,table{font-size: 25px;}
+  #main ,section,table{font-size: 28px;}
   #main{padding-bottom:60px;}
   .input_road{margin: 15px 20px 30px 20px;}
   .input_road input{font-size: 25px;}
@@ -188,8 +188,14 @@ background-image   : url(../images/receipt1.png),
   .ticket_number{font-size: 120px;padding-bottom: 10px;line-height: 120px;margin: 30px auto;}
   .hr_dot{width: 90%;border-bottom: 1px #666 dashed;margin:30px auto;}
   .ticket_btn{width: 560px;}
-  .btn_save{ width: 280px;height: 70px;background-image: url(../images/b_save1.png);cursor: pointer;background-size: 100% 100%;}
-  .btn_print{ width: 280px;height: 70px;background-image: url(../images/b_print1.png);cursor: pointer;background-size: 100% 100%;}
+  .btn_search{width: 252px;height: 35px;background-image: url(../images/b_search1.png);float: right;margin: 20px 30px 15px 0px;cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
+  .btn_back{width: 252px;height: 43px;background-image: url(../images/b_back1.png);float: left;margin: 20px 0px 15px 25%;cursor: pointer;margin-bottom: 60px;-webkit-background-size: 100%;background-size: 100%;}
+  .btn_check{width: 252px;height: 43px;background-image: url(../images/b_check1.png);float: right;margin: 20px 25% 15px 0px;cursor: pointer;margin-bottom: 60px;-webkit-background-size: 100%;background-size: 100%;}
+  .btn_renew{float: right;margin-top: -45px; width: 252px;height: 43px;background-image: url(../images/b_Update.png);cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
+.btn_take{width: 252px;height: 43px;margin: 50px 0 0 30px;-webkit-background-size: 100%;background-size: 100%;}
+  .btn_save{ width: 252px;height: 70px;background-image: url(../images/b_save1.png);cursor: pointer;background-size: 100% 100%;}
+  .btn_print{ width: 252px;height: 70px;background-image: url(../images/b_print1.png);cursor: pointer;background-size: 100% 100%;}
+  
   .notice_area{width: 560px;font-size: 25px;height: auto;}
   .notice_area p{font-size: 25px;}
 	}

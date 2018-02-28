@@ -27,7 +27,7 @@ background-size: 100%;}
 
 .notice_area{width: 45%;height: auto;margin: 0px auto;
     background-color: #fde4c9; border-top-right-radius: 25px;border-top-left-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;}
-.notice_area p{padding:10px 20px;font-size: 15px;text-align: center;}
+.notice_area p{padding:10px 20px;font-size: 20px;text-align: center;}
 .ticket_area{margin: 50px auto;width: 359px;}
 .ticket{float: left; width: 359px;height: auto;
 background-image   : url(../images/receipt1.png),
@@ -66,6 +66,8 @@ background-image   : url(../images/receipt1_u.png),
 @media (max-width: 900px) {
 }
 @media (max-width: 800px) {
+#main ,section{font-size: 25px}
+table{font-size: 1.2em;}
 .notice_area{width: 560px;}
 .notice_area p{font-size: 25px;padding:20px 30px;}
 .ticket_area{margin: 50px auto;width: 560px;}
