@@ -39,14 +39,14 @@
 .btn_check:hover{background-image: url(../images/b_check2_h.png);}
 
 .btn_take{width: 134px;height: 43px;margin: 100px 0 0 30px;-webkit-background-size: 100%;background-size: 100%;}
-.take1{background-image: url(../images/b_get1.png);}
-.take1:hover{background-image: url(../images/b_get1_h.png);}
-.take2{background-image: url(../images/b_get2.png);}
-.take2:hover{background-image: url(../images/b_get2_h.png);}
-.take3{background-image: url(../images/b_get3.png);}
-.take3:hover{background-image: url(../images/b_get3_h.png);}
-.take4{background-image: url(../images/b_get4.png);}
-.take4:hover{background-image: url(../images/b_get4_h.png);}
+.take1{background-image: url(../images/b_book1.png);}
+.take1:hover{background-image: url(../images/b_book1_h.png);}
+.take2{background-image: url(../images/b_book2.png);}
+.take2:hover{background-image: url(../images/b_book2_h.png);}
+.take3{background-image: url(../images/b_book3.png);}
+.take3:hover{background-image: url(../images/b_book3_h.png);}
+.take4{background-image: url(../images/b_book4.png);}
+.take4:hover{background-image: url(../images/b_book4_h.png);}
 .btn_save{ width: 170px;height: 43px;background-image: url(../images/b_save2.png);cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
 .btn_save:hover{background-image: url(../images/b_save2_h.png);}
 .btn_print{ width: 170px;height: 43px;background-image: url(../images/b_print2.png);cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
