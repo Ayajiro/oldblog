@@ -159,6 +159,8 @@ background-image   : url(../images/receipt1.png),
   .input_road input{font-size: 25px;height: 62px;}
   .spotTable th input{margin-left:0;}
   .spot_info_p{font-size: 22px;}
+  .spot_phone{float: left;width: 50%;line-height: 30px;}
+.spot_address{float: left;width: 50%;line-height: 30px;}
   .service_area{width: 600px; margin: 60px 5%;display: block;overflow: inherit;}
   .service{float: left; width: 388px;height: 200px;background-repeat: no-repeat;background-position:top center; margin:15px 0;}
 .s1{background-image: url(../images/s2_item1_phone.png);}
