@@ -66,12 +66,11 @@ background-image   : url(../images/receipt1_u.png),
 @media (max-width: 900px) {
 }
 @media (max-width: 800px) {
-#main ,section{font-size: 25px}
-table{font-size: 1.2em;}
-.notice_area{width: 560px;}
-.notice_area p{font-size: 25px;padding:20px 30px;}
-.ticket_area{margin: 50px auto;width: 560px;}
-.ticket{float: left; width: 560px;height: auto;
+#main ,section{font-size: 28px}
+.notice_area{width: 90%;}
+.notice_area p{font-size: 28px;padding:20px 30px;}
+.ticket_area{margin: 50px auto;width: 90%;}
+.ticket{float: left; width: 100%;height: auto;
 background-image   : url(../images/receipt1.png),
                        url(../images/receipt3.png);
 
@@ -84,7 +83,7 @@ background-image   : url(../images/receipt1.png),
                        bottom;
    -webkit-background-size: 100%,100%;
    background-size: 100%,100%;}
-.ticket_used{float: left; width: 560px;height: auto;
+.ticket_used{float: left; width: 100%;height: auto;
 background-image   : url(../images/receipt1_u.png),
                        url(../images/receipt3_u.png);
 
@@ -99,14 +98,17 @@ background-image   : url(../images/receipt1_u.png),
    background-size: 100%,100%;}
 
 
-.ticket_in{float: left; width: 560px;height: auto;margin: 60px 0 ;background-image: url(../images/receipt2.png);text-align: center; font-size: 25px;line-height: 30px;
+.ticket_in{float: left; width: 100%;height: auto;margin: 60px 0 ;background-image: url(../images/receipt2.png);text-align: center; font-size: 28px;line-height: 30px;
 background-size: 100%;}
-.ticket_in_used{float: left; width: 560px;height: auto;margin: 60px 0 ;background-image: url(../images/receipt2_u.png);text-align: center; font-size: 25px;line-height: 30px;
+.ticket_in p,.ticket_used p{font-size: 28px;line-height: 35px;}
+.ticket_in p:first-child,.ticket_used p:first-child{font-size: 45px;line-height: 45px;}
+.ticket_in_used{float: left; width: 100%;height: auto;margin: 60px 0 ;background-image: url(../images/receipt2_u.png);text-align: center; font-size: 28px;line-height: 30px;
 background-size: 104%;background-position: center;}
 .ticket_qrcode{width: 500px;height: 500px;
   padding-bottom: 10px;line-height: 80px;margin: 0px auto;}
-  
-  .ticket_btn{width: 560px;}
+  .hr_dot{width: 90%;border-bottom: 3px #666 dashed;margin:30px auto;}
+  .hr_dot2{width: 92%;border-bottom: 3px #666 dashed;margin:0px auto;}
+  .ticket_btn{width: 90%;}
   .btn_save{ width: 280px;height: 70px;background-image: url(../images/b_save.png);cursor: pointer;background-size: 100% 100%;}
   .btn_print{ width: 280px;height: 70px;background-image: url(../images/b_print.png);cursor: pointer;background-size: 100% 100%;}
 }

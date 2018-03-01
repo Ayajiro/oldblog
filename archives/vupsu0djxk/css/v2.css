@@ -151,13 +151,15 @@ background-image   : url(../images/receipt1.png),
 @media (max-width: 900px) {
 }
 @media (max-width: 800px) {
-  #main ,section,table{font-size: 1.2em;}
+  #main ,section,table{font-size: 28px;}
   #main{padding-bottom:60px;}
+  .center_area{width: 90%;}
+  .search_area{margin:30px 5%;}
   .input_road{margin: 15px 20px 30px 20px;}
-  .input_road input{font-size: 25px;}
+  .input_road input{font-size: 25px;height: 62px;}
   .spotTable th input{margin-left:0;}
-  .spot_info_p{font-size: 20px;}
-  .service_area{width: 600px; margin: 60px 100px;display: block;overflow: inherit;}
+  .spot_info_p{font-size: 22px;}
+  .service_area{width: 600px; margin: 60px 5%;display: block;overflow: inherit;}
   .service{float: left; width: 388px;height: 200px;background-repeat: no-repeat;background-position:top center; margin:15px 0;}
 .s1{background-image: url(../images/s2_item1_phone.png);}
 .s2{background-image: url(../images/s2_item2_phone.png);}
@@ -165,7 +167,7 @@ background-image   : url(../images/receipt1.png),
 .s4{background-image: url(../images/s2_item4_phone.png);}
 .service_title{color: #fff;font-size: 30px;margin: 24px 0 22px -184px;text-align: center;}
 
-.btn_take{width: 170px;height: 54px;margin: -108px 0 0 400px;-webkit-background-size: 100%;background-size: 100%;background-repeat: no-repeat;}
+
   .ticket_area{ display: flex;justify-content: center;margin: 50px auto;}
   .ticket{
     float: left; width: 100%;height: auto;
@@ -180,16 +182,23 @@ background-image   : url(../images/receipt1.png),
                
                bottom;
     background-size: 100%,100%;}
-  .ticket_in{float: left; width: 100%;height: auto;margin: 60px 0 ;background-image: url(../images/receipt2.png);text-align: center; font-size: 25px;line-height: 30px;-webkit-background-size: 100%;
+  .ticket_in{float: left; width: 100%;height: auto;margin: 60px 0 ;background-image: url(../images/receipt2.png);text-align: center; font-size: 28px;line-height: 30px;-webkit-background-size: 100%;
     background-size: 100%;}
-  .ticket_title{font-size: 45px;padding-bottom: 10px;line-height: 45px;}
+    .ticket_in p{font-size: 28px;line-height: 35px;}
+    .ticket_in p:first-child{font-size: 45px;line-height: 45px;}
+  .ticket_title{padding-bottom: 10px;}
   .ticket_number{font-size: 120px;padding-bottom: 10px;line-height: 120px;margin: 30px auto;}
-  .hr_dot{width: 90%;border-bottom: 1px #666 dashed;margin:30px auto;}
+  .hr_dot{width: 90%;border-bottom: 3px #666 dashed;margin:30px auto;}
   .ticket_btn{width: 560px;}
-  .btn_save{ width: 280px;height: 70px;background-image: url(../images/b_save2.png);cursor: pointer;background-size: 100% 100%;}
-  .btn_print{ width: 280px;height: 70px;background-image: url(../images/b_print2.png);cursor: pointer;background-size: 100% 100%;}
-  .notice_area{width: 560px;font-size: 25px;height: auto;}
-  .notice_area p{font-size: 25px;}
+  .btn_search{width: 159px;height: 64px;background-image: url(../images/b_search2.png);float: right;margin: 20px 30px 15px 0px;cursor: pointer;-webkit-background-size: 100%;background-size: 100%;background-repeat: no-repeat;}
+  .btn_back{width: 199px;height: 64px;background-image: url(../images/b_back1.png);float: left;margin: 0 0 0 100px;cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
+  .btn_check{width: 199px;height: 64px;background-image: url(../images/b_check2.png);float: right;margin: 0 100px 0 0;cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
+  .btn_take{width: 199px;height: 64px;margin: -108px 0 0 516px;-webkit-background-size: 100%;background-size: 100%;}
+  .btn_save{ width: 252px;height: 64px;background-image: url(../images/b_save2.png);cursor: pointer;background-size: 100% 100%;}
+  .btn_print{ width: 252px;height: 64px;background-image: url(../images/b_print2.png);cursor: pointer;background-size: 100% 100%;}
+  
+  .notice_area{width: 90%;font-size: 28px;height: auto;}
+  .notice_area p{font-size: 28px;}
   .ticket_qrcode{width: 500px;height: 500px;
   padding-bottom: 10px;line-height: 80px;margin: 0px auto;}
 	}
