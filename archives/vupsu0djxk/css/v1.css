@@ -205,7 +205,7 @@ background-size: 100%;}
   .btn_back{width: 199px;height: 64px;background-image: url(../images/b_back1.png);float: left;margin: 0 0 0 100px;cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
   .btn_check{width: 199px;height: 64px;background-image: url(../images/b_check1.png);float: right;margin: 0 100px 0 0;cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
   .btn_renew{width: 253px;height: 64px;float: right;margin-top: -65px; background-image: url(../images/b_Update.png);cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
-  .btn_take{width: 199px;height: 64px;margin: -120px 0 0 516px;-webkit-background-size: 100%;background-size: 100%;}
+  .btn_take{width: 199px;height: 64px;margin: -130px 0 0 516px;-webkit-background-size: 100%;background-size: 100%;}
   .btn_save{ width: 252px;height: 64px;background-image: url(../images/b_save1.png);cursor: pointer;background-size: 100% 100%;}
   .btn_print{ width: 252px;height: 64px;background-image: url(../images/b_print1.png);cursor: pointer;background-size: 100% 100%;}
   
