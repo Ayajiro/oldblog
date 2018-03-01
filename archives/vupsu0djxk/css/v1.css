@@ -101,7 +101,7 @@ background-size: 20px;cursor: pointer;}
 .s3{background-image: url(../images/s1_item3.png);}
 .s4{background-image: url(../images/s1_item4.png);}
 
-.service_title{color: #fff;font-size: 30px;margin: 39px 0 0 -45px;text-align: center;}
+.service_title{color: #fff;font-size: 30px;margin: 39px 0 0 30px;text-align: left;}
 .service_ty{color: #fff67c;margin-left: 50px;margin-top: 8px;line-height: 29px;}
 .service_tw{color: #fff;font-size: 42px;margin: 40px 0 0 -40px;text-align: center;}
 .service_tc{font-size: 42px;margin: 25px 0 0 -40px;text-align: center;}
@@ -172,10 +172,10 @@ background-size: 100%;}
 .s2{background-image: url(../images/s1_item2_phone.png);}
 .s3{background-image: url(../images/s1_item3_phone.png);}
 .s4{background-image: url(../images/s1_item4_phone.png);}
-.service_title{color: #fff;font-size: 43px;margin: 28px 0 17px -226px;text-align: center;}
-.service_ty{color: #fff67c;margin-left: 50px;margin-top: 8px;line-height: 39px;}
-.service_tw{color: #fff;font-size: 42px;margin: -130px 0 0 153px;text-align: center;}
-.service_tc{font-size: 42px;margin: 33px 0 0 165px;text-align: center;}
+.service_title{color: #fff;font-size: 43px;margin: 28px 0 17px 30px;text-align: left;}
+.service_ty{color: #fff67c;margin-left: 50px;margin-top: -6px;line-height: 43px;}
+.service_tw{color: #fff;font-size: 42px;margin: -164px 0 0 199px;text-align: center;}
+.service_tc{font-size: 42px;margin: 48px 0 0 209px;text-align: center;}
 
   .ticket_area{ display: flex;justify-content: center;margin: 50px auto;}
   .ticket{
@@ -205,7 +205,7 @@ background-size: 100%;}
   .btn_back{width: 199px;height: 64px;background-image: url(../images/b_back1.png);float: left;margin: 0 0 0 100px;cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
   .btn_check{width: 199px;height: 64px;background-image: url(../images/b_check1.png);float: right;margin: 0 100px 0 0;cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
   .btn_renew{width: 253px;height: 64px;float: right;margin-top: -65px; background-image: url(../images/b_Update.png);cursor: pointer;-webkit-background-size: 100%;background-size: 100%;}
-  .btn_take{width: 199px;height: 64px;margin: -108px 0 0 516px;-webkit-background-size: 100%;background-size: 100%;}
+  .btn_take{width: 199px;height: 64px;margin: -120px 0 0 516px;-webkit-background-size: 100%;background-size: 100%;}
   .btn_save{ width: 252px;height: 64px;background-image: url(../images/b_save1.png);cursor: pointer;background-size: 100% 100%;}
   .btn_print{ width: 252px;height: 64px;background-image: url(../images/b_print1.png);cursor: pointer;background-size: 100% 100%;}
   
