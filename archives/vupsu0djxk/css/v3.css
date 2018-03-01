@@ -108,9 +108,9 @@ background-size: 104%;background-position: center;}
   padding-bottom: 10px;line-height: 80px;margin: 0px auto;}
   .hr_dot{width: 90%;border-bottom: 3px #666 dashed;margin:30px auto;}
   .hr_dot2{width: 92%;border-bottom: 3px #666 dashed;margin:0px auto;}
-  .ticket_btn{width: 90%;}
-  .btn_save{ width: 280px;height: 70px;background-image: url(../images/b_save.png);cursor: pointer;background-size: 100% 100%;}
-  .btn_print{ width: 280px;height: 70px;background-image: url(../images/b_print.png);cursor: pointer;background-size: 100% 100%;}
+  .ticket_btn{width: 100%;}
+  .btn_save{ width: 252px;height: 64px;background-image: url(../images/b_save.png);cursor: pointer;background-size: 100% 100%;margin-left: 75px;}
+  .btn_print{ width: 252px;height: 64px;background-image: url(../images/b_print.png);cursor: pointer;background-size: 100% 100%;margin-right: 75px;}
 }
 
 
