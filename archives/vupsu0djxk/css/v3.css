@@ -111,6 +111,10 @@ background-size: 104%;background-position: center;}
   .ticket_btn{width: 100%;}
   .btn_save{ width: 252px;height: 64px;background-image: url(../images/b_save.png);cursor: pointer;background-size: 100% 100%;margin-left: 75px;}
   .btn_print{ width: 252px;height: 64px;background-image: url(../images/b_print.png);cursor: pointer;background-size: 100% 100%;margin-right: 75px;}
+  .btn_cancel{float: right;width: 50px;height: 50px;background-image: url(../images/delete.png);margin: -108px 22px 0 0;-webkit-background-size: 100%;
+  background-size: 100%;}
+.btn_edit{float: right;width: 50px;height: 50px;background-image: url(../images/edit.png);background-position: center; background-repeat: no-repeat;margin:-27px 20px 0 0;-webkit-background-size: 100%;
+background-size: 100%;}
 }
 
 
