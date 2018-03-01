@@ -174,7 +174,7 @@ background-size: 100%;}
 .s4{background-image: url(../images/s1_item4_phone.png);}
 .service_title{float: left;width: 45%; color: #fff;font-size: 43px;margin: 28px 0 17px 30px;text-align: left;}
 .service_ty{float: left; width: 41%; color: #fff67c;margin-left: 50px;margin-top: -6px;line-height: 43px;}
-.service_tw{float: left; width: 36%; height: 120px;line-height: 120px;color: #fff;font-size: 50px;margin: -75px 0 0 0px;text-align: center;}
+.service_tw{float: left; width: 36%; height: 60px;line-height: 60px;color: #fff;font-size: 50px;margin: -50px 0 0 0px;text-align: center;}
 .service_tc{float: left; width: 36%; height: 60px;line-height: 60px;font-size: 50px;margin: 45px 0 0 0px;text-align: center;}
 
   .ticket_area{ display: flex;justify-content: center;margin: 50px auto;}
