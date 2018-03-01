@@ -22,7 +22,7 @@
 .last_use{margin: 30px auto;}
 .search_area{overflow: inherit; display:inline-block;margin: 30px 15%;background-color: #de70b4;border-top-left-radius: 20px;border-top-right-radius: 20px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
 .spot_info{width: 600px;overflow: inherit;}
-.service_area{margin: 30px 15%;display: flex;justify-content: center;}
+.service_area{width: 100%;max-width: 1024px; margin: 30px auto;display: flex;justify-content: center;}
 .ticket_btn{width: 349px;display: flex;justify-content: space-between;margin-bottom: 60px;}
 .notice_area{width: 45%;height: auto;margin: 30px auto;
     background-color: #f5c8e5; border-top-right-radius: 25px;border-top-left-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;}
