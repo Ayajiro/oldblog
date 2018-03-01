@@ -151,18 +151,24 @@ background-image   : url(../images/receipt1.png),
 @media (max-width: 900px) {
 }
 @media (max-width: 800px) {
+    .steps1{width: 90%;background-size: 100%;height: 52px;}
+  .steps2{width: 90%;background-size: 100%;height: 52px;}
+  .steps3{width: 90%;background-size: 100%;height: 52px;}
+.back_step1{float: left; width: 224px;height: 45px;/*background-color: #100;*/}
+.back_step2{float: left; width: 224px;height: 45px;/*background-color: #100;*/margin-left: 5px;}
   #main ,section,table{font-size: 28px;}
   #main{padding-bottom:60px;}
   .center_area{width: 90%;}
   .search_area{margin:30px 5%;}
   .input_road{margin: 15px 20px 30px 20px;}
-  .input_road input{font-size: 25px;height: 62px;}
+  .input_road input{font-size: 25px;height: 58px;}
   .spotTable th input{margin-left:0;}
   .spot_info_p{font-size: 22px;}
   .spot_phone{float: left;width: 50%;line-height: 30px;}
 .spot_address{float: left;width: 50%;line-height: 30px;}
   .service_area{width: 600px; margin: 60px 5%;display: block;overflow: inherit;}
-  .service{float: left; width: 388px;height: 200px;background-repeat: no-repeat;background-position:top center; margin:15px 0;}
+  .service{float: left; width: 480px;height: 250px;background-repeat: no-repeat;background-position:top center; margin:15px 0;-webkit-background-size: 100%;
+  background-size: 100%;}
 .s1{background-image: url(../images/s2_item1_phone.png);}
 .s2{background-image: url(../images/s2_item2_phone.png);}
 .s3{background-image: url(../images/s2_item3_phone.png);}
