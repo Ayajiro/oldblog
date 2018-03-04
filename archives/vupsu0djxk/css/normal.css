@@ -1,5 +1,9 @@
+@font-face {
+  font-family: msbold;
+  src:url(../fonts/MicrosoftJhenghei.ttf);
+}
 body {
-    font: 18px "微軟正黑體", "Helvetica Neue", "Microsoft JhengHei", Helvetica, Arial, sans-serif;color:#4f4c4b;
+    font: 18px msbold, "Helvetica Neue", "Microsoft JhengHei", Helvetica, Arial, sans-serif;color:#4f4c4b;
 }
 
 a:hover {
