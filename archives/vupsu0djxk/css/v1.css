@@ -160,8 +160,8 @@ background-image   : url(../images/receipt1.png),
   .center_area{width: 90%;}
   .search_area{margin:30px 5%;}
 
-  .input_road{height: 58px; margin: 15px 20px 30px 20px;}
-  .input_road input{font-size: 25px;height: 54px;}
+  .input_road{height: 56px; margin: 15px 20px 30px 20px;}
+  .input_road input{font-size: 25px;height: 52px;}
 
   .spotTable th input{margin-left:0;}
   .spot_info_p{font-size: 22px;}
