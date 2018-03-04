@@ -23,7 +23,7 @@
 .last_use{margin: 30px auto;}
 .search_area{overflow: inherit; display:inline-block;margin: 30px 15%;background-color: #0071bc;border-top-left-radius: 20px;border-top-right-radius: 20px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
 .spot_info{width: 600px;overflow: inherit;}
-.service_area{margin: 30px 15%;display: flex;justify-content: center;overflow: inherit;}
+.service_area{width: 100%;max-width: 1024px; margin: 30px auto;display: flex;justify-content: center;}
 .ticket_btn{width: 349px;display: flex;justify-content: space-between;margin-bottom: 60px;}
 .notice_area{width: 45%;height: auto;margin: 30px auto;
     background-color: #becfe7; border-top-right-radius: 25px;border-top-left-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;}
@@ -88,11 +88,12 @@ background-size: 20px;cursor: pointer;}
 
 
 /*V1_2*/
+/*.text_right{float: right; text-align: right;}*/
 .text_left{float: left; text-align: left;}
 .spot_info_p{width: 100%;font-size: 13px;margin-top: 30px;margin-bottom: 5px;}
-.spot_title{float: left; width: 49%;font-size: 40px;margin-left: -5px;}
-.spot_phone{float: left;width: 50%;line-height: 25px;}
-.spot_address{float: left;width: 50%;line-height: 25px;}
+.spot_title{width: 49%;font-size: 40px;margin-left: -5px;}
+.spot_phone{float: right;width: 51%;margin-top:-50px;line-height: 25px;}
+.spot_address{float: right;width: 51%;margin-top:-25px;line-height: 25px;}
 
 
 .service{ width: 24%;height: 400px;background-repeat: no-repeat;background-position:top center; min-width: 223px;margin-top: 60px;}
@@ -163,9 +164,10 @@ background-image   : url(../images/receipt1.png),
   .input_road{margin: 15px 20px 30px 20px;}
   .input_road input{font-size: 25px;height: 58px;}
   .spotTable th input{margin-left:0;}
+  
   .spot_info_p{font-size: 22px;}
-  .spot_phone{float: left;width: 50%;line-height: 30px;}
-.spot_address{float: left;width: 50%;line-height: 30px;}
+  .spot_phone{float: right;width: 50%;line-height: 30px;}
+.spot_address{float: right;width: 50%;line-height: 30px;margin-top: -20px;}
   .service_area{width: 600px; margin: 60px 5%;display: block;overflow: inherit;}
   .service{float: left; width: 480px;height: 250px;background-repeat: no-repeat;background-position:top center; margin:15px 0;-webkit-background-size: 100%;
   background-size: 100%;}
