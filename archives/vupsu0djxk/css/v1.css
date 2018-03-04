@@ -81,8 +81,8 @@ background-size: 20px;cursor: pointer;}
 .spotTable tr:not(:first-child):hover td,.spotTable tr:not(:first-child):hover th{background-color: #f5d3ec;}
 .last_tb_color tr:hover td,.last_tb_color tr:hover th{background-color: #f5d3ec;}
 
-.input_road{float: left; width: 219px;margin: 15px 20px 15px 20px;height: 42px;}
-.input_road input{width: 200px;height: 42px;font-size: 18px;padding-left: 15px;border:2px solid #de4e8e;}
+.input_road{float: left; width: 219px;margin: 15px 20px 15px 20px;height: 40px;border:2px solid #de4e8e;}
+.input_road input{width: 200px;height: 38px;font-size: 18px;padding-left: 15px;}
 .input_road input:focus{outline: none;}
 
 
@@ -160,8 +160,8 @@ background-image   : url(../images/receipt1.png),
   .center_area{width: 90%;}
   .search_area{margin:30px 5%;}
 
-  .input_road{margin: 15px 20px 30px 20px;}
-  .input_road input{font-size: 25px;height: 58px;}
+  .input_road{height: 58px; margin: 15px 20px 30px 20px;}
+  .input_road input{font-size: 25px;height: 54px;}
 
   .spotTable th input{margin-left:0;}
   .spot_info_p{font-size: 22px;}
@@ -211,6 +211,15 @@ background-size: 100%;}
   
   .notice_area{width: 90%;font-size: 28px;height: auto;}
   .notice_area p{font-size: 28px;}
+
+div.cs-skin-border {
+  background: #fff;
+  font-size: 25px;/*check*/
+  font-weight: 700;
+  max-width: 200px;/*check*/
+  
+}
+
 	}
 
 

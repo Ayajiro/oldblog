@@ -38,7 +38,7 @@
 .btn_check{width: 134px;height: 43px;background-image: url(../images/b_check2.png);float: right;margin: 20px 25% 15px 0px;cursor: pointer;margin-bottom: 60px;-webkit-background-size: 100%;background-size: 100%;}
 .btn_check:hover{background-image: url(../images/b_check2_h.png);}
 
-.btn_take{width: 134px;height: 43px;margin: 100px 0 0 30px;-webkit-background-size: 100%;background-size: 100%;}
+.btn_take{width: 134px;height: 43px;margin: 100px 0 0 40px;-webkit-background-size: 100%;background-size: 100%;}
 .take1{background-image: url(../images/b_book1.png);}
 .take1:hover{background-image: url(../images/b_book1_h.png);}
 .take2{background-image: url(../images/b_book2.png);}
@@ -81,8 +81,8 @@ background-size: 20px;cursor: pointer;}
 .spotTable tr:not(:first-child):hover td,.spotTable tr:not(:first-child):hover th{background-color: #d7e0f0;}
 .last_tb_color tr:hover td,.last_tb_color tr:hover th{background-color: #d7e0f0;}
 
-.input_road{float: left; width: 219px;margin: 15px 20px 15px 20px;height: 42px;}
-.input_road input{width: 200px;height: 42px;font-size: 18px;padding-left: 15px;border:2px solid #0071bc;}
+.input_road{float: left; width: 219px;margin: 15px 20px 15px 20px;height: 40px;border:2px solid #0071bc;}
+.input_road input{width: 200px;height: 38px;font-size: 18px;padding-left: 15px;}
 .input_road input:focus{outline: none;}
 
 
@@ -161,8 +161,8 @@ background-image   : url(../images/receipt1.png),
   #main{padding-bottom:60px;}
   .center_area{width: 90%;}
   .search_area{margin:30px 5%;}
-  .input_road{margin: 15px 20px 30px 20px;}
-  .input_road input{font-size: 25px;height: 58px;}
+  .input_road{height: 58px; margin: 15px 20px 30px 20px;}
+  .input_road input{font-size: 25px;height: 54px;}
   .spotTable th input{margin-left:0;}
   
   .spot_info_p{font-size: 22px;}
@@ -213,5 +213,13 @@ background-image   : url(../images/receipt1.png),
   .notice_area p{font-size: 28px;}
   .ticket_qrcode{width: 500px;height: 500px;
   padding-bottom: 10px;line-height: 80px;margin: 0px auto;}
+
+div.cs-skin-border {
+  background: #fff;
+  font-size: 25px;/*check*/
+  font-weight: 700;
+  max-width: 200px;/*check*/
+  
+}
 	}
 
