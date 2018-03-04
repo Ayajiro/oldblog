@@ -227,7 +227,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 .btns {
     width: 62%;
     height: 222px;
-    /*background-color: #555;*/
     margin: 0 auto;
     position: relative;
     top: -65px;
@@ -342,7 +341,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	.icon_1{
 		width: 330px;
 		float: left;
-		/* min-width: 400px; */
 		height: 60px;
 		background-image: url(../images/icon_index_1.png);
 		background-repeat: no-repeat;
@@ -355,7 +353,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	.icon_2{
 		width: 330px;
 		float: left;
-		/* min-width: 400px; */
 		height: 60px;
 		background-image: url(../images/icon_index_2.png);
 		background-repeat: no-repeat;
@@ -368,7 +365,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	.icon_3{
 		width: 330px;
 		float: left;
-		/* min-width: 400px; */
 		height: 60px;
 		background-image: url(../images/icon_index_3.png);
 		background-repeat: no-repeat;
@@ -447,7 +443,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 	.btns {
 	    width: 800px;
 	    height: 222px;
-	    /*background-color: #555;*/
 	    margin: 0 auto;
 	    position: relative;
 	    top: -65px;
