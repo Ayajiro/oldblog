@@ -73,7 +73,7 @@ justify-content: space-between;margin-bottom: 60px;}
 .spotTable tr:last-child td:last-child { border-bottom-right-radius: 20px;}
 .spotTable tr th{min-width: 40px;}
 .spotTable tr td:nth-child(4){text-align: center;width: 30%;}
-.spotTable tr td:nth-child(2){text-align: center;width: 30%;min-width: 150px;}
+.spotTable tr td:nth-child(2){text-align: center;width: 20%;min-width: 150px;}
 .spotTable tr td:nth-child(3){width: 15%;}
 .last_tb_color tr td:nth-child(3){width: 15%;text-align: left;padding-left: 15px;}
 .spotTable tr:not(:first-child) td:nth-child(3){padding-left: 15px;}
@@ -81,9 +81,9 @@ justify-content: space-between;margin-bottom: 60px;}
 .spotTable tr:not(:first-child) td:nth-child(5){background-image: url(../images/icon_map1.png);background-position: center; background-repeat: no-repeat;-webkit-background-size: 20px;background-size: 20px;cursor: pointer;}
 .last_tb_color tr td:nth-child(5){background-image: url(../images/icon_map1.png);background-position: center; background-repeat: no-repeat;-webkit-background-size: 20px;background-size: 20px;cursor: pointer;}
 /*首列*/
-.spotTable th {text-align: left; background-color: #fff; font-weight: normal; width: 5%; line-height: 1em;}
+.spotTable th {text-align: left; background-color: #fff; font-weight: normal; width: 10%; line-height: 1em;}
 .spotTable th input{float: left; margin-right: 15px;}
-.spotTable td { background-color: #FFF; width: 27%; }
+.spotTable td { background-color: #FFF; width: 10%; }
 .spotTable tr:not(:first-child):hover td,.spotTable tr:not(:first-child):hover th{background-color: #f5d3ec;}
 .last_tb_color th{ line-height: 1em;}
 .last_tb_color tr:hover td,.last_tb_color tr:hover th{background-color: #f5d3ec;}
