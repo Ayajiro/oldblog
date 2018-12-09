@@ -161,7 +161,7 @@ padding-bottom: 10px;}
   .nav.b2,.nav.b3{background-position: 33px 15px ;}
   
   /* .header{min-width: 400px;} */
-  .logo{float: left;margin-left:22px;font-size: 22px; background-size: 11%; padding:0 42px;line-height: 60px;}
+  .logo{float: left;margin-left:22px;font-size: 22px; background-size: 11%; padding:0 0 0 42px;line-height: 60px;}
   .content{width: 100%;}
   
   
