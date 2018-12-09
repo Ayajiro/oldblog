@@ -27,7 +27,7 @@ input{font-size: 20px;}
 
 .wrapper{width:100%;height: 100%;overflow: hidden;}
 .header{width: 100%;height: 68px;background-color: #7180c6;position: relative;z-index:999;}
-.btn_nav{float: left; width:60px;height: 60px ;background-image: url(../images/nav.png);background-position: center;background-repeat: no-repeat;display: none;background-size: 53%;margin-left: 26px;}
+.btn_nav{float: right; width:60px;height: 60px ;background-image: url(../images/nav.png);background-position: center;background-repeat: no-repeat;display: none;background-size: 53%;margin-left: 26px;}
   .logo{float: right; width:200px;height: 100%;color: #fff;font-size: 25px; background-image: url(../images/logo.png);background-repeat: no-repeat;background-position: 0px center ; padding:0 50px;line-height: 68px;}
 
 .menu{float: left; width:20.9%;min-width: 268px; height: 92.9%;background-color: #566296;position: relative;}
@@ -160,7 +160,7 @@ padding-bottom: 10px;}
   .nav.b1{background-size: 45px; background-position:33px 19px ;}
   .nav.b2,.nav.b3{background-position: 33px 15px ;}
   
-  .header{min-width: 400px;}
+  /* .header{min-width: 400px;} */
   .logo{float: left;margin-left:22px;font-size: 22px; background-size: 11%; padding:0 42px;line-height: 60px;}
   .content{width: 100%;}
   
