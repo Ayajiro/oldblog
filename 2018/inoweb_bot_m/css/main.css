@@ -167,21 +167,21 @@ padding-bottom: 10px;}
   
   .btn_nav{display: block; cursor: pointer;}
   .menu{display: none;position: relative;width: 100%;z-index: 999;}
-  .chat_left_box,.chat_right_box{max-width: 85%;font-size: 15px;}
+  .chat_left_box,.chat_right_box{max-width: 85%;font-size: 15px;padding: 3%;}
   .chat_left_l{width: calc(90% - 50px); background-size: 62px;padding-left: 56px;padding-top:8px; }
-  .tns-outer{width: 100vw;margin-left: -62px;}
+  .tns-outer{width: 100vw;margin-left: -62px;margin-top: -39px;}
   .tns-controls{width: 97vw;}
   .item{width: 200px;}
   .chat_btn_blue_bot{font-size: 15px;line-height: 18px;padding: 5px 7%;}
   .chat_btn_blue_bot_l{font-size: 15px;line-height: 18px;}
   .mesg_area{width: 96%; height: inherit;}
-  .mesg_input_area{height: 50px;width: 96%;background-color: #d0d9f2;z-index: 99;}
-  .conf_btn{float: left; width: 50px;height: 50px;background-position:12px center;background-size: 65%;background-image: url(../images/specil_icon.png);background-repeat: no-repeat;background-size: contain;background-position: center ;}
-  .mesg_btn{width: 50px;height: 50px;background-position:12px center;background-size: 65%;}
-  .mesg_text{width:calc(100% - 140px) ;height: 50px;margin-left: 5px;
-    -moz-border-radius: 50px  ;/* Firefox */
-    -webkit-border-radius:50px   ;/* Safari and Chrome */
-    border-radius:  50px  ;}
+  .mesg_input_area{height: 30px;width: 96%;background-color: #d0d9f2;z-index: 99;}
+  .conf_btn{float: left; width: 30px;height: 30px;background-position:12px center;background-size: 65%;background-image: url(../images/specil_icon.png);background-repeat: no-repeat;background-size: contain;background-position: center ;}
+  .mesg_btn{width: 30px;height: 30px;background-position:7px center;background-size: 65%;}
+  .mesg_text{width:calc(100% - 100px) ;height: 30px;margin-left: 5px;
+    -moz-border-radius: 30px  ;/* Firefox */
+    -webkit-border-radius:30px   ;/* Safari and Chrome */
+    border-radius:  30px  ;}
   .qa_title{width:100% ;}
   .qa_title_l{width:100% ;}
   .qa_title_l p{margin-left: 30px;}
