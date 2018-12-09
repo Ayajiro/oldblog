@@ -27,7 +27,7 @@ input{font-size: 20px;}
 
 .wrapper{width:100%;height: 100%;overflow: hidden;}
 .header{width: 100%;height: 68px;background-color: #7180c6;position: relative;z-index:999;}
-.btn_nav{float: right; width:60px;height: 60px ;background-image: url(../images/nav.png);background-position: center;background-repeat: no-repeat;display: none;background-size: 53%;margin-right: 6px;}
+.btn_nav{float: left; width:60px;height: 60px ;background-image: url(../images/nav.png);background-position: center;background-repeat: no-repeat;display: none;background-size: 53%;margin-left: 26px;}
   .logo{float: right; width:200px;height: 100%;color: #fff;font-size: 25px; background-image: url(../images/logo.png);background-repeat: no-repeat;background-position: 0px center ; padding:0 50px;line-height: 68px;}
 
 .menu{float: left; width:20.9%;min-width: 268px; height: 92.9%;background-color: #566296;position: relative;}
