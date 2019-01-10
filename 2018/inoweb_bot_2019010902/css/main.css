@@ -52,7 +52,7 @@ input:focus{outline: none;}
 	.mesg{padding: 15px;}
   .mesg_area{float: left;width: calc(100% - 30px);}
     .chat_left_l,.chat_right_l{float: left; width:100%;}
-    .chat_left_l{width: calc(90% - 70px);background-image: url(../images/icon_logo.png);background-position: left 0px;background-size: 45px; background-repeat: no-repeat;padding-left: 44px;padding-top: 10px;}
+    .chat_left_l{width: calc(90% - 70px);background-image: url(../images/icon_logo.png);background-position: left 0px;background-size: 45px; background-repeat: no-repeat;padding-left: 53px;padding-top: 10px;}
     
     .chat_left_box{float: left;font-size: 18px; line-height: 25px;color: #727171; max-width: 50%; word-break: break-all;background-color: #fff;box-shadow: 4px 3px 10px #ccc;padding: 1.5% ;margin: 15px 0 0 11px;
       border-radius:35px ;position: relative;z-index:1;}
