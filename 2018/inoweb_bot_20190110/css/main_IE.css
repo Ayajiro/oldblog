@@ -1,0 +1,87 @@
+
+body {
+  min-width: 1280px;font: 20px "微軟正黑體", "Helvetica Neue", "Microsoft JhengHei", Helvetica, Arial, sans-serif;width: 100%; height: 100%;
+}
+html{width: 100%;height: 100%;min-width: 1280px;overflow-x: scroll;}
+
+a:hover {
+  color: inherit;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color: #bbbbbb;
+}
+::-moz-placeholder { /* Firefox 19+ */
+color: #bbbbbb;
+}
+:-ms-input-placeholder { /* IE 10+ */
+color: #bbbbbb;
+}
+:-moz-placeholder { /* Firefox 18- */
+color: #bbbbbb;
+}
+input:focus{outline: none;}
+input{font-size: 20px;}
+
+/* txt */
+.txt_pink{color: #e1619c;}
+
+.wrapper{width:100%;height: 100%;min-width: 1280px;}
+.header{width: 100%;height: 68px;background-color: #7180c6;position: relative;z-index:999;}
+.logo{float: right; width:200px;height: 100%;color: #fff;font-size: 25px; background-image: url(../images/logo.png);background-repeat: no-repeat;background-position: 0px center ; padding:0 50px;line-height: 68px;}
+
+.menu{float: left; width:20.9%;min-width: 268px; height: 92.9%;background-color: #566296;}
+.hr{float: left;width:98%;margin-left:5px;border-bottom: #5b7dc1 solid 2px;}
+.nav{float: left;width: 100%;height: 140px;text-align: center;line-height: 100px;}
+.nav.b1{background-image: url(../images/icon1.png);background-repeat: no-repeat;background-position: 48% 30px;}
+.nav.b2{background-image: url(../images/icon2.png);background-repeat: no-repeat;background-position: 48% 30px;}
+.nav.b3{background-image: url(../images/icon3.png);background-repeat: no-repeat;background-position: 48% 30px;}
+.nav p{margin-top: 42px;color: #fff}
+.b1:hover{background-color: #f3a9c4;}
+.b2:hover{background-color: #3fb46c;}
+.b3:hover{background-color: #f5a724;}
+.b1_color{float: right;width:15px;height: 140px;background-color: #f3a9c4;}
+.b2_color{float: right;width:15px;height: 140px;background-color: #3fb46c;}
+.b3_color{float: right;width:15px;height: 140px;background-color: #f5a724;}
+
+.content{float: left;width:79%;height:92.9%;background-color: #f2f6ff;}
+.mesg{padding: 2%;}
+.mesg_area{float: left;width: 96%;height:93.7%;}
+  .chat_left_l,.chat_right_l{float: left; width:100%;}
+  .chat_left_l{width: 79%;background-image: url(../images/icon_logo.png);background-position: left -4px;background-repeat: no-repeat;padding-left: 70px;padding-top: 14px}
+  .chat_left_box{float: left;font-size: 18px;line-height: 25px;color: #727171; max-width: 50%; word-break: break-all;background-color: #fff;box-shadow: 2px 3px 10px #666;padding: 1.5% ;margin: 15px 0;
+    border-radius: 0 10px 10px 10px ;behavior: url(css/PIE.htc);position: relative;z-index:1;}
+  .chat_right_box{float: right;font-size: 18px;line-height: 25px;max-width: 50%; word-break: break-all;background-color: #f3a9c4;box-shadow: 2px 3px 10px #666;padding: 1.5%;margin: 15px 0;color: #fff;
+    -moz-border-radius: 10px 0 10px 10px  ;/* Firefox */
+    -webkit-border-radius:10px 0 10px 10px  ;/* Safari and Chrome */
+    border-radius:  10px 0 10px 10px  ;
+    behavior: url(css/PIE.htc);position: relative;z-index:1;
+  }
+  .chat_bottom{float: left; width: 100%;height: 150px;}
+  .chat_btn_blue{
+    display: inline-block; 
+    background-color: #d0d9f2;
+    color: #5279d1;
+    padding: 5px 5%;
+    margin: 10px 0;
+    -moz-border-radius: 10px  ;/* Firefox */
+    -webkit-border-radius:10px   ;/* Safari and Chrome */
+    border-radius:  10px  ;
+    behavior: url(css/PIE.htc);position: relative;z-index:1;
+  }
+.mesg_input_area{position: absolute; width: 75%;min-width: 970px; height: 70px; bottom: 0;}
+  .mesg_text{float: left; width: 86%; height: 70px; border: #7691da solid 1px;line-height: 50px;background-color: #fff;box-shadow: 5px 5px 10px #aaaaaa;padding: 0 2%;
+    -moz-border-radius: 15px  ;/* Firefox */
+    -webkit-border-radius:15px   ;/* Safari and Chrome */
+    border-radius:  15px  ;border-radius: 15px;behavior: url(css/PIE.htc);position: relative;z-index:2}
+  .mesg_btn{float: left;width: 70px;height: 70px;border: #f3a9c4 solid 1px;line-height: 50px;background-color: #f3a9c4;box-shadow: 5px 5px 10px #aaaaaa;margin-left: 1%;background-image: url(../images/btn_send.png);background-repeat: no-repeat;background-position:20px center ;
+    -moz-border-radius: 50px  ;/* Firefox */
+    -webkit-border-radius:50px   ;/* Safari and Chrome */
+    border-radius:  50px  ;border-radius: 50px;behavior: url(css/PIE.htc);position: relative;z-index:2}
+  
+/* 
+@media (max-width: 1280px) {
+.content{width: calc(100% - 268px);}
+.mesg_input_area{width: calc(100% - 268px);}
+.mesg_text{width: calc(100% - 268px);}
+} */
+
