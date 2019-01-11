@@ -26,12 +26,8 @@
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
     <script src="js/tiny-slider.js"></script>
     
-    <!--[if IE 8]>
-    <link href="css/main_IE.css" rel="stylesheet" />
-    <script src="js/tiny-slider.helper.ie8.js"></script>
-    <![endif]-->
+    
      <!--[if IE 9]>
-    <link href="css/main_IE.css" rel="stylesheet" />
     <script src="js/tiny-slider.helper.ie8.js"></script>
     <![endif]-->
   
@@ -265,15 +261,19 @@
             <div class="text_area">
                 <p class="color_orange_28">熱門問答</p>
                 <div class="dot"></div>
-               <a href=""><div class="hot_q"><p>申請網路銀行後，未能在一個月的期限內完
+                <a href=""><div class="hot_q"><p>申請網路銀行後，未能在一個月的期限內完
                         成密碼變更啟用動作，應如何恢復使用？</p></div></a>
-               <a href=""><div class="hot_q qline"><p>申請個人網路銀行，可由他人代為辦理嗎？</p></div></a>
+                <a href=""><div class="hot_q qline"><p>申請個人網路銀行，可由他人代為辦理嗎？</p></div></a>
                 <a href=""><div class="hot_q"><p>個人網路銀行外匯交易最高限額為何？</p></div></a>
                 <a href=""><div class="hot_q qline"><p>臺灣銀行沒有代收之信用卡卡費，是否可以
                         在個人網路銀行繳納？</p></div></a>
+                <p class="closeinfo_btn">完成</p>
+                <div class="conf_bottom"></div>
                 
             </div>
+            
         </div>
+        <div class="black_bg"></div>
 
     </div>
     
@@ -356,6 +356,7 @@
             autoWidth:true
         });
         $("#btn_bot").click(function() {
+            
             $("#bot").css("display","block");
             $("#qa").css("display","none");
             $("#info").css("display","none");
@@ -366,7 +367,10 @@
         });
         $("#btn_qa").click(function() {
             // $("#bot").css("display","none");
-            $("#qa").css("display","block");
+           
+            $("#qa").slideToggle(1000);
+            $(".text_area").scrollTop(0);
+            $(".black_bg").css("display","block");
             $("#info").css("display","none");
             $("#description").css("display","none");
             $("#serv").css("display","none");
@@ -374,8 +378,11 @@
         });
         $("#btn_info").click(function() {
             // $("#bot").css("display","none");
+            
             $("#qa").css("display","none");
-            $("#info").css("display","block");
+            $("#info").slideToggle(1000);
+            $(".text_area").scrollTop(0);
+            $(".black_bg").css("display","block");
             $("#description").css("display","none");
             $("#serv").css("display","none");
             $("#menu").toggle();
@@ -384,7 +391,9 @@
             // $("#bot").css("display","none");
             $("#qa").css("display","none");
             $("#info").css("display","none");
-            $("#description").css("display","block");
+            $("#description").slideToggle(1000);
+            $(".text_area").scrollTop(0);
+            $(".black_bg").css("display","block");
             $("#serv").css("display","none");
             $("#menu").toggle();
         });
@@ -392,13 +401,21 @@
             $("#qa").css("display","none");
             $("#info").css("display","none");
             $("#description").css("display","none");
-            $("#serv").slideToggle("slow");
+            $("#serv").slideToggle(1000);
             $(".conf_bg").toggle();
            
         });     
         $(".closeinfo_btn").click(function(){
             $("#info").css("display","none");
             $("#description").css("display","none");
+            $("#qa").css("display","none");
+            $(".black_bg").css("display","none");
+        });
+        $(".black_bg").click(function(){
+            $("#info").css("display","none");
+            $("#description").css("display","none");
+            $("#qa").css("display","none");
+            $(".black_bg").css("display","none");
         });
         
         $("#nav").click(function() {
