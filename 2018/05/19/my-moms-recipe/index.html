@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<!-- Head tag -->
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<!-- Title -->
+<title>我媽的食譜（跟我的） | CODING UNTIL CATS BOTHER YOU</title>
+
+<!--Author-->
+
+<meta name="author" content="Oscillator Buck">
+
+
+<!--Description-->
+
+<meta name="description" content="最近實在太熱了，媽媽就像小叮噹，隨便弄就是一桌連夏天都可以吃到撐死人的菜，所以打算記錄一下。 鹽水豆 青豆（或任何燙過就好吃的東西，精靈菇啊木耳什麼的） 生蒜頭 黑胡椒 橄欖油  青豆洗乾淨，切段拿去燙，覺得差不多再拿起來瀝乾。生蒜頭去皮壓碎，把燙好的青豆跟生蒜頭、黑胡椒（可能還有鹽巴）丟在一起然後淋上橄欖油拌勻。 幹">
+<meta name="keywords" content="母食">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我媽的食譜（跟我的）">
+<meta property="og:url" content="https://OscillatorBuck.github.io/2018/05/19/my-moms-recipe/index.html">
+<meta property="og:site_name" content="CODING UNTIL CATS BOTHER YOU">
+<meta property="og:description" content="最近實在太熱了，媽媽就像小叮噹，隨便弄就是一桌連夏天都可以吃到撐死人的菜，所以打算記錄一下。 鹽水豆 青豆（或任何燙過就好吃的東西，精靈菇啊木耳什麼的） 生蒜頭 黑胡椒 橄欖油  青豆洗乾淨，切段拿去燙，覺得差不多再拿起來瀝乾。生蒜頭去皮壓碎，把燙好的青豆跟生蒜頭、黑胡椒（可能還有鹽巴）丟在一起然後淋上橄欖油拌勻。 幹超他媽好吃。喜歡生蒜頭的人（就像我）可以清盤。（不喜歡的人大概就會留生蒜頭下來吧">
+<meta property="og:locale" content="zh-TW">
+<meta property="og:updated_time" content="2018-05-19T07:16:32.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="我媽的食譜（跟我的）">
+<meta name="twitter:description" content="最近實在太熱了，媽媽就像小叮噹，隨便弄就是一桌連夏天都可以吃到撐死人的菜，所以打算記錄一下。 鹽水豆 青豆（或任何燙過就好吃的東西，精靈菇啊木耳什麼的） 生蒜頭 黑胡椒 橄欖油  青豆洗乾淨，切段拿去燙，覺得差不多再拿起來瀝乾。生蒜頭去皮壓碎，把燙好的青豆跟生蒜頭、黑胡椒（可能還有鹽巴）丟在一起然後淋上橄欖油拌勻。 幹超他媽好吃。喜歡生蒜頭的人（就像我）可以清盤。（不喜歡的人大概就會留生蒜頭下來吧">  
+
+
+
+
+<!-- Bootstrap Core CSS -->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/css/style.css">
+
+<!-- Custom Fonts -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Gallery -->
+<link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+<!-- Google Analytics -->
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-71065924-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+<!-- favicon -->
+
+<link rel="icon" href="/img/favicon.ico">
+
+
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">CODING UNTIL CATS BOTHER YOU</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags">
+                            
+                                Tags
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            
+                                Categories
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/OscillatorBuck/OscillatorBuck.github.io">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>我媽的食譜（跟我的）</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2018-05-19
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/母食/">#母食</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
+            
+
+            <!-- Gallery -->
+            
+            
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>最近實在太熱了，媽媽就像小叮噹，隨便弄就是一桌連夏天都可以吃到撐死人的菜，所以打算記錄一下。</p>
+<h3 id="鹽水豆"><a href="#鹽水豆" class="headerlink" title="鹽水豆"></a>鹽水豆</h3><ul>
+<li>青豆（或任何燙過就好吃的東西，精靈菇啊木耳什麼的）</li>
+<li>生蒜頭</li>
+<li>黑胡椒</li>
+<li>橄欖油</li>
+</ul>
+<p>青豆洗乾淨，切段拿去燙，覺得差不多再拿起來瀝乾。<br>生蒜頭去皮壓碎，把燙好的青豆跟生蒜頭、黑胡椒（可能還有鹽巴）丟在一起然後淋上橄欖油拌勻。</p>
+<p>幹超他媽好吃。喜歡生蒜頭的人（就像我）可以清盤。（不喜歡的人大概就會留生蒜頭下來吧）</p>
+<h3 id="冰地瓜稀飯"><a href="#冰地瓜稀飯" class="headerlink" title="冰地瓜稀飯"></a>冰地瓜稀飯</h3><p>把地瓜跟米丟下去一起煮成稀飯，然後冰到冰箱隔天拿出來吃。<br>不要加熱，正中午可以吃兩碗以上。</p>
+<h3 id="即食醃小黃瓜"><a href="#即食醃小黃瓜" class="headerlink" title="即食醃小黃瓜"></a>即食醃小黃瓜</h3><p>這道真的十分鐘以內做完。</p>
+<ul>
+<li>冰過的小黃瓜</li>
+<li>生蒜頭</li>
+<li>辣椒</li>
+<li>二砂糖</li>
+<li>鹽</li>
+<li><p>糯米醋</p>
+</li>
+<li><p>塑膠袋</p>
+</li>
+<li>石頭</li>
+</ul>
+<p>小黃瓜洗乾淨去頭去尾切段，然後丟進乾淨的塑膠袋裡。<br>抓緊塑膠袋口，用石頭把袋子裡的小黃瓜打破（注意塑膠袋不要破了），然後丟一些鹽巴進去搖一搖。<br>然後把去皮打碎的生蒜頭、切片的辣椒、二砂和糯米醋丟進去，抓著袋子搖均勻。</p>
+<p>然後就可以吃了。</p>
+<p>以前以為至少要醃半個小時，結果用這方法迅速做好上菜，爽，清爽！</p>
+<h2 id="我的食譜"><a href="#我的食譜" class="headerlink" title="我的食譜"></a>我的食譜</h2><p>附贈我的食譜好了，我的食譜是</p>
+<h3 id="雞胸凍（冷der）"><a href="#雞胸凍（冷der）" class="headerlink" title="雞胸凍（冷der）"></a>雞胸凍（冷der）</h3><p>把雞胸洗乾淨之後，放到比較高一點的碗裡面，碗裡不用另外加水，放到電鍋裡，外鍋一碗水，蒸！<br>好了之後就變成熟雞胸＋純雞湯（或雞精），可以拿去餵貓（雞湯要加水）。<br>熟雞肉跟純雞湯直接拿去冰箱冰，碗點就會變成熟雞肉＋雞凍<br>拿剪刀剪成一塊一塊就變成好吃的凍肉了</p>
+<h3 id="匏仔湯"><a href="#匏仔湯" class="headerlink" title="匏仔湯"></a>匏仔湯</h3><ul>
+<li>匏仔（新鮮的，如果你剛好有叔叔，你叔叔又剛好在頂樓種了匏仔的話最好）</li>
+<li>肉（雞胸或是豬，我不太喜歡豬的味道啦）</li>
+</ul>
+<p>半鍋水＋切片的匏仔，煮到匏仔快半透明的時候，把生雞肉或是上面的雞胸凍丟下去一起煮。<br>不用放鹽！！！！！！！！！！！！！！！！</p>
+<p>超甜超好喝w</p>
+
+
+                
+            </div>
+            <!-- Table of Content -->
+
+            <!-- <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1" >
+                
+                    <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#鹽水豆"><span class="post-toc-text">鹽水豆</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#冰地瓜稀飯"><span class="post-toc-text">冰地瓜稀飯</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#即食醃小黃瓜"><span class="post-toc-text">即食醃小黃瓜</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#我的食譜"><span class="post-toc-text">我的食譜</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#雞胸凍（冷der）"><span class="post-toc-text">雞胸凍（冷der）</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#匏仔湯"><span class="post-toc-text">匏仔湯</span></a></li></ol>
+                
+                </div> -->
+            <!-- Comments -->
+            <!-- 
+                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                    
+    <hr />
+    <h3>留言:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+             -->
+        </div>
+    </div>
+</article>
+
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/OscillatorBuck/OscillatorBuck.github.io" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2019 Oscillator Buck<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'oscillatorbuck';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+
+</html>
