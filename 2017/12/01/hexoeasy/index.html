@@ -24,16 +24,16 @@
 <meta name="keywords" content="架站,hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用Hexo架站很輕鬆？">
-<meta property="og:url" content="https://OscillatorBuck.github.io/2017/12/01/hexoeasy/index.html">
+<meta property="og:url" content="https://github.com/Ayajiro/oldblog/2017/12/01/hexoeasy/index.html">
 <meta property="og:site_name" content="CODING UNTIL CATS BOTHER YOU">
 <meta property="og:description" content="用Hexo架站很輕鬆？（mac環境）當然還有很多其他的方式建立一個靜態站，但掙扎過後還是決定用Hexo了，不過一開始就遇到一些問題。安裝Hexo需要使用npm，但我的npm版本老舊導致好幾次安裝失敗，後來一口氣升級homebrew和npm才成功安裝Hexo（記得要sudo啊） 首先要建置環境，這部份官網上的說明寫得很清楚，連Node.js的安裝都寫得很清楚，再來就是Hexo本身的安裝了 1$ su">
 <meta property="og:locale" content="zh-TW">
-<meta property="og:image" content="https://oscillatorbuck.github.io/2017/12/01/hexoeasy/20161215-3.jpg">
+<meta property="og:image" content="https://github.com/2017/12/01/hexoeasy/20161215-3.jpg">
 <meta property="og:updated_time" content="2017-12-27T09:37:45.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用Hexo架站很輕鬆？">
 <meta name="twitter:description" content="用Hexo架站很輕鬆？（mac環境）當然還有很多其他的方式建立一個靜態站，但掙扎過後還是決定用Hexo了，不過一開始就遇到一些問題。安裝Hexo需要使用npm，但我的npm版本老舊導致好幾次安裝失敗，後來一口氣升級homebrew和npm才成功安裝Hexo（記得要sudo啊） 首先要建置環境，這部份官網上的說明寫得很清楚，連Node.js的安裝都寫得很清楚，再來就是Hexo本身的安裝了 1$ su">
-<meta name="twitter:image" content="https://oscillatorbuck.github.io/2017/12/01/hexoeasy/20161215-3.jpg">  
+<meta name="twitter:image" content="https://github.com/2017/12/01/hexoeasy/20161215-3.jpg">  
 
 
 
@@ -222,7 +222,7 @@
 <p>建置完成後開始研究啦，Hexo能用markdown寫文章真的太好了，現在的工作流程會變成：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; $ hexo new 新文件</span><br><span class="line">&gt; vscode寫markdown</span><br><span class="line">&gt; $ hexo server 開localhost檢查</span><br><span class="line">&gt; $ hexo generate --deplay 編譯佈署</span><br></pre></td></tr></table></figure>
 <p>跟原本更新一篇文章就要寫一個html檔案比起來方便多了！</p>
-<h3 id="Hexo好改嗎？"><a href="#Hexo好改嗎？" class="headerlink" title="Hexo好改嗎？"></a>Hexo好改嗎？</h3><p>本來用的GitHub Page樣板是bootstrap的Clean Blog，感謝<a href="http://www.codeblocq.com/" target="_blank" rel="noopener">Jonathan Klughertz</a>把這個樣板改成<a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank" rel="noopener">hexo版本</a>，雖然還要改動不少，但不清楚架構的狀況下先clone來和Hexo本來的主題對照會好一點。</p>
+<h3 id="Hexo好改嗎？"><a href="#Hexo好改嗎？" class="headerlink" title="Hexo好改嗎？"></a>Hexo好改嗎？</h3><p>本來用的GitHub Page樣板是bootstrap的Clean Blog，感謝<a href="http://www.codeblocq.com/" target="_blank" rel="noopener">Jonathan Klughertz</a>把這個樣板改成<a href="https://github.com/klugjo/hexo-theme-clean-blog">hexo版本</a>，雖然還要改動不少，但不清楚架構的狀況下先clone來和Hexo本來的主題對照會好一點。</p>
 <p>Hexo原本的主題是landscape，也有一些高手寫了<a href="http://www.codertian.com/2016/03/14/change-landscape-theme-by-yourself/" target="_blank" rel="noopener">教你定制Hexo的landscape打造自己的主题</a>這樣的教學，不過我喜歡自己先晃一圈再找攻略。（大概就是這樣所以很容易撞牆吧）</p>
 <p>因為架構都是類似的，很容易就可以找出想修改的地方在哪裡，基本上所有的設定檔案都在<code>_config.yml</code>裡面，theme裡也有獨立的<code>_config.yml</code>，分開修改就好了，通常裡面的註解都寫得很清楚，不過樣式大調整的話，還是需要一點時間來摸索。</p>
 <p>建置到現在就是你看到的這樣了，隨著這樣一步步編譯出一個靜態站，覺得自己破碎的自信好像回來了一點。今後除了一些日常筆記之外，可能會放一些畫！我真的很會畫！</p>
