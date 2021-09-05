@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>台灣銀行｜Online Take a Number Service</title>
+    <!--Css-->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- Meta -->
+    <meta name="title" content=" " />
+    <meta name="description" content=" " />
+    <meta name="keywords" content=" " />
+    <!-- FaceBook -->
+    <meta property="og:site_name" content=" " />
+    <meta property="og:title" content=" " />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=" " />
+    <meta property="og:image" content=" " />
+    <meta property="og:description" content=" " />
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.preload.min.js"></script>
+    <script type="text/javascript">
+        $.preload( 'images/b_index_1.png',
+                   'images/b_index_1_h.png',
+                   'images/b_index_2.png',
+                   'images/b_index_2_h.png',
+                   'images/b_index_3.png',
+                   'images/b_index_3_h.png',
+                   'images/photo_index_1.png',
+                   'images/photo_index_2.png',
+                   'images/photo_index_3.png'
+        );
+    </script>
+</head>
+
+<body>
+    <!-- Entrance -->
+    <div id="main">
+        <a class="logo" href="index.html"><img src="images/logo_index.png"></a>
+        
+        <div class="lan_nav_ot lan_nav_ot_bg1"id="language_nav">
+            <div class="lan_nav1" >語言(Language)</div>
+        </div>
+        <div class="lan_nav_in" >
+            <div class="lan_nav2" id="language_nav2">語言(Language)</div>
+            <a href="../index.html"><div class="language_in">正體中文</div></a>
+            <a href="index.html"><div class="language_in">English</div></a>
+        </div>
+       
+        <div id="mainbg" class="mainbg"></div>
+        <!-- 主體區塊1 -->
+        <div class="maincontent" id="slid1">
+            <div class="icon_1">
+                <p class="title_l title_s_pc">Real-time <br>E-ticketing</p>
+                <p class="title_l title_s_mb">Real-time E-ticketing</p>
+            </div>
+            <p class="title_s">Get the queuing status timely<br>
+                Save your waiting time easily
+            </p>
+            <a href="v1_1.html">
+                <div class="btn_index btn1">
+                    <p>GO</p>
+                </div>
+            </a>
+        </div>
+        <!-- 主體區塊2 -->
+        <div class="maincontent" id="slid2">
+            <div class="icon_2">
+                <p class="title_l title_s_pc">Advance <br>E-booking</p>
+                <p class="title_l title_s_mb">Advance E-booking</p>
+            </div>
+            <p class="title_s title_s_pc">Advance E-booking for 7 calendar days,  <br>starting from the next day <br>
+                Easily check in with QR Code                
+            </p>
+            <p class="title_s title_s_mb">Advance E-booking for 7 calendar days, starting from the next day <br>
+                Easily check in with QR Code                
+            </p>
+            <div class="colorinput">
+                <div class="theinput">
+                    <input type="text" name="tel" placeholder="Enter the mobile phone number">
+                </div>
+                <a href="v2_1.html"><div class="btn_index2 btn2">
+                    <p>GO</p>
+                </div></a>
+            </div>
+        </div>
+        <!-- 主體區塊3 -->
+        <div class="maincontent" id="slid3">
+            <div class="icon_3">
+                <p class="title_l title_s_pc">Query for <br>E-booking</p>
+                <p class="title_l title_s_mb">Query for E-booking</p>
+            </div>
+            <p class="title_s title_s_pc">Advance E-booking for 7 calendar days,<br>starting from the next day <br>
+                Query or cancel anytime
+            </p>
+            <p class="title_s title_s_mb">Advance E-booking for 7 calendar days,<br>starting from the next day <br>
+                Query or cancel anytime
+            </p>
+            <!-- 2021修改 -->
+            <div class="colorinput_muti">
+                <div class="theinput  theinput_round r1"">
+                    <input type="text" name="tel" placeholder="Enter the mobile phone number">
+                </div>
+                <div class="theinput theinput_round r2">
+                    <input type="text" name="tel" placeholder="Captcha">
+                    
+                </div>
+                <div class="certify_image">
+                    <img class="c_img" src="images/CertifyImage.jpg" alt="" width="100%" height="100%">
+                </div>
+                <div class="btn_refresh"></div>
+            </div>
+            <div class="btn_index3_outline">
+                <a href="v3_1.html">
+                    <div class="btn_index3 btn3">
+                    <p>GO</p></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="btn_chose">
+        <div class="btns">
+            <div class="btn_61" id="btn_slid1"></div>
+            <div class="btn_62" id="btn_slid2"></div>
+            <div class="btn_63" id="btn_slid3"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>It is recommended that you use the following browsers: Microsoft IE 11, Microsoft Edge, Google Chrome, Mozilla Firefox, and Safari browsers. <br>
+            <a href="https://www.bot.com.tw/Protect/Pages/default.aspx">[Privacy Statement]</a> | Copyright © 2018 Bank Of Taiwan. All Rights Reserved.
+         </p>
+    </div>
+    <script type="text/javascript">
+    console.log("load finishi")
+    $("#btn_slid1").click(function() {
+        $("#slid1").fadeIn("slow", function() {});
+        $("#slid2").hide();
+        $("#slid3").hide();
+        $("#main").css("background-color", "#fcc0d7");
+        $(".mainbg").css("background-image", "url(images/photo_index_1.png)");
+
+// for index language menu
+        $(".lan_nav_in").css("background-color","#dd508e");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg3");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg2");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg1");
+        $(".lan_nav_ot").addClass("lan_nav_ot_bg1");
+        $(".language_in").css("background-color","#dd508e");
+        $(".language_in").mouseover(function() {
+            $(this).css("background-color", "#f178ae")
+            });
+        $(".language_in").mouseout(function(){
+            $(this).css("background-color","#dd508e");
+        });
+        
+    });
+    $("#btn_slid2").click(function() {
+        $("#slid2").fadeIn("slow", function() {});
+        $("#slid1").hide();
+        $("#slid3").hide();
+        $("#main").css("background-color", "#b4e6f4");
+        $(".mainbg").css("background-image", "url(images/photo_index_2.png)");
+
+// for index language menu
+        $(".lan_nav_in").css("background-color","#095fac");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg3");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg2");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg1");
+        $(".lan_nav_ot").addClass("lan_nav_ot_bg2");
+        $(".language_in").css("background-color","#095fac");
+        $(".language_in").mouseover(function() {
+            $(this).css("background-color", "#1f88c9")
+            });
+        $(".language_in").mouseout(function(){
+            $(this).css("background-color","#095fac");
+        });
+        
+    });
+
+    $("#btn_slid3").click(function() {
+        $("#slid3").fadeIn("slow", function() {});
+        $("#slid2").hide();
+        $("#slid1").hide();
+        $("#main").css("background-color", "#fee3a1");
+        $(".mainbg").css("background-image", "url(images/photo_index_3.png)");
+
+
+// for index language menu
+        $(".lan_nav_in").css("background-color","#e47725");
+        
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg3");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg2");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg1");
+        $(".lan_nav_ot").addClass("lan_nav_ot_bg3");
+        $(".language_in").css("background-color","#e47725");
+
+        $(".language_in").mouseover(function() {
+            $(this).css("background-color", "#ee8d22")
+            });
+        $(".language_in").mouseout(function(){
+            $(this).css("background-color","#e47725");
+        });
+        
+    });
+
+    $("#language_nav").click(function() {
+        $(".lan_nav_in").toggle();
+    });
+    $("#language_nav2").click(function() {
+        $(".lan_nav_in").toggle();
+    });
+
+    $(function(){
+            $('body').click(function(evt) {
+                if($(evt.target).parents("#language_nav").length==0 && 
+                    evt.target.id != "lan_nav_in" && evt.target.id != "language_nav") {
+                    $('.lan_nav_in').hide();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
