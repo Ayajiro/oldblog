@@ -40,11 +40,11 @@ a:hover {
     width: 100%;
 }
 
-.lan_nav_ot{position: absolute;top:55px;right: 32px;font-size: 18px;line-height: 27px;color: #fff;z-index: 9999;width: 177px;height: 30px;padding-left: 10px;background-color:#dd508e;background-image: url(../images/lan_arr.png);background-position: 165px center;background-repeat: no-repeat;cursor: pointer;}
-.lan_nav_ot_bg1{background-image: url(../images/lan_arr.png);background-color: #dd508e;}
-.lan_nav_ot_bg2{background-image: url(../images/lan_arr.png);background-color: #095fac;}
-.lan_nav_ot_bg3{background-image: url(../images/lan_arr.png);background-color: #e47725;}
-.lan_nav_in{position: absolute;top: 55px;right: 32px;font-size: 18px;line-height: 27px;color: #fff;z-index: 99999;width: 177px;height: 30px;padding-left: 10px;background-color:#dd508e;background-image: url(../images/lan_arr.png);background-position: 165px center;background-repeat: no-repeat;cursor: pointer;margin-top: 30px;display: none;}
+.lan_nav_ot{position: absolute;top:55px;right: 32px;font-size: 18px;line-height: 27px;color: #fff;z-index: 9999;width: 177px;height: 30px;padding-left: 10px;background-color:#dd508e;background-image: url(../Images/lan_arr.png);background-position: 165px center;background-repeat: no-repeat;cursor: pointer;}
+.lan_nav_ot_bg1{background-image: url(../Images/lan_arr.png);background-color: #dd508e;}
+.lan_nav_ot_bg2{background-image: url(../Images/lan_arr.png);background-color: #095fac;}
+.lan_nav_ot_bg3{background-image: url(../Images/lan_arr.png);background-color: #e47725;}
+.lan_nav_in{position: absolute;top: 55px;right: 32px;font-size: 18px;line-height: 27px;color: #fff;z-index: 99999;width: 177px;height: 30px;padding-left: 10px;background-color:#dd508e;background-image: url(../Images/lan_arr.png);background-position: 165px center;background-repeat: no-repeat;cursor: pointer;margin-top: 30px;display: none;}
 .language_in{width: 177px;height: 30px;padding-left: 10px;background-color:#dd508e;display: block;margin-left: -10px;color: #fff;}
 .language_in:hover{background-color: #f178ae;}
 .lan_nav1{display: block;}
@@ -181,13 +181,13 @@ a:hover {
 	width: 36px;
 	height: 36px;
 	cursor: pointer;
-	background: url(../images/b_reset.png);
+	background: url(../Images/b_reset.png);
 	background-size: 100%;
 	float: left;
 	margin: 18px 0 0 8px;
 }
 .btn_refresh:active{
-	background: url(../images/b_reset_h.png);
+	background: url(../Images/b_reset_h.png);
 	background-size: 100%;
 }
 input:focus{outline:none}
@@ -439,10 +439,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c46', end
 
 
 	.lan_nav_ot{position: fixed;top:45px;right: 45px;font-size: 18px;line-height: 27px;color: #fff;z-index: 9999;width: 54px;height: 54px;padding-left: 10px;background-color:unset;background-position: center;background-repeat: no-repeat;cursor: pointer;}
-	.lan_nav_ot_bg1{background-image: url(../images/gball_1.png);background-color: unset;}
-	.lan_nav_ot_bg2{background-image: url(../images/gball_2.png);background-color: unset;}
-	.lan_nav_ot_bg3{background-image: url(../images/gball_3.png);background-color: unset;}
-	.lan_nav_in{position: fixed;top: 0px;right: 0px;font-size: 30px;line-height: 27px;color: #fff;z-index: 99999;width: 250px;height: 104px;display: none;background-color: #dd508e;padding-left: 80px;background-image: url(../images/gball_w.png);background-position: 20px 50px;background-repeat: no-repeat;line-height: 146px;display: none;margin-top: 0;}
+	.lan_nav_ot_bg1{background-image: url(../Images/gball_1.png);background-color: unset;}
+	.lan_nav_ot_bg2{background-image: url(../Images/gball_2.png);background-color: unset;}
+	.lan_nav_ot_bg3{background-image: url(../Images/gball_3.png);background-color: unset;}
+	.lan_nav_in{position: fixed;top: 0px;right: 0px;font-size: 30px;line-height: 27px;color: #fff;z-index: 99999;width: 250px;height: 104px;display: none;background-color: #dd508e;padding-left: 80px;background-image: url(../Images/gball_w.png);background-position: 20px 50px;background-repeat: no-repeat;line-height: 146px;display: none;margin-top: 0;}
 	.language_in{width: 258px;height: 51px;padding-left: 90px;background-color:#dd508e;margin-left: -80px;line-height: 44px;}
 	.lan_nav1{display: none;}
 	.lan_nav2{display: block;line-height: 65px;margin-top: 39px;}
