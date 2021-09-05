@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>台灣銀行｜線上取號服務</title>
+    <!--Css-->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- Meta -->
+    <meta name="title" content=" " />
+    <meta name="description" content=" " />
+    <meta name="keywords" content=" " />
+    <!-- FaceBook -->
+    <meta property="og:site_name" content=" " />
+    <meta property="og:title" content=" " />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=" " />
+    <meta property="og:image" content=" " />
+    <meta property="og:description" content=" " />
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.preload.min.js"></script>
+    <script type="text/javascript">
+        $.preload( 'images/b_index_1.png',
+                   'images/b_index_1_h.png',
+                   'images/b_index_2.png',
+                   'images/b_index_2_h.png',
+                   'images/b_index_3.png',
+                   'images/b_index_3_h.png',
+                   'images/photo_index_1.png',
+                   'images/photo_index_2.png',
+                   'images/photo_index_3.png'
+        );
+    </script>
+</head>
+
+<body>
+    <!-- Entrance -->
+    <div id="main">
+        <a class="logo" href="index.html"><img src="images/logo_index.png"></a>
+        <!-- 2020修改 -->
+        
+        <div class="lan_nav_ot lan_nav_ot_bg1"id="language_nav">
+            <div class="lan_nav1" >語言(Language)</div>
+        </div>
+        <div class="lan_nav_in" >
+            <div class="lan_nav2" id="language_nav2">語言(Language)</div>
+            <a href="index.html"><div class="language_in">正體中文</div></a>
+            <a href="en/index.html"><div class="language_in">English</div></a>
+        </div>
+       
+        <div id="mainbg" class="mainbg"></div>
+        <!-- 主體區塊1 -->
+        <div class="maincontent" id="slid1">
+            <div class="icon_1">
+                <p class="title_l">即時取號</p>
+            </div>
+            <p class="title_s">即時掌握叫號進度
+                <br>輕鬆省去等待時間
+            </p>
+            <a href="v1_1.html">
+                <div class="btn_index btn1">
+                    <p>開始取號</p>
+                </div>
+            </a>
+        </div>
+        <!-- 主體區塊2 -->
+        <div class="maincontent" id="slid2">
+            <div class="icon_2">
+                <p class="title_l">預約取號</p>
+            </div>
+            <!-- 2020修改 -->
+            <p class="title_s">可預約保留次日起七日
+                <br>QRCode報到真便利
+            <!--  -->
+            </p>
+            <div class="colorinput">
+                <div class="theinput">
+                    <input type="text" name="tel" placeholder="請輸入手機號碼">
+                </div>
+                <a href="v2_1.html"><div class="btn_index2 btn2">
+                    <p>開始預約</p>
+                </div></a>
+            </div>
+        </div>
+        <!-- 主體區塊3 -->
+        <div class="maincontent" id="slid3">
+            <div class="icon_3">
+                <p class="title_l">預約查詢</p>
+            </div>
+            <!-- 2020修改 -->
+            <p class="title_s">可預約保留次日起七日
+                <br>隨時可以查詢及取消
+            </p>
+            <!-- 2021修改 -->
+            <div class="colorinput_muti">
+                <div class="theinput theinput_round r1">
+                    <input type="text" name="tel" placeholder="請輸入手機號碼">
+                </div>
+                <div class="theinput theinput_round r2">
+                    <input type="text" name="tel" placeholder="圖形驗證碼">
+                    
+                </div>
+                <div class="certify_image">
+                    <img class="c_img" src="images/CertifyImage.jpg" alt="" width="100%" height="100%">
+                </div>
+                <div class="btn_refresh"></div>
+            </div>
+            <div class="btn_index3_outline">
+                <a href="v3_1.html">
+                    <div class="btn_index3 btn3">
+                    <p>開始查詢</p></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="btn_chose">
+        <div class="btns">
+            <div class="btn_61" id="btn_slid1"></div>
+            <div class="btn_62" id="btn_slid2"></div>
+            <div class="btn_63" id="btn_slid3"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>建議瀏覽器版本: Microsoft IE 11、Microsoft Edge、Google Chrome、Mozilla Firefox及Safari瀏覽器<br />
+            Copyright © 2018臺灣銀行 版權所有 | <a title="隱私權聲明" style="color:#f9f9f9" target="_blank" href="https://www.bot.com.tw/Protect/Pages/default.aspx">[隱私權聲明]</a>
+        </p>
+    </div>
+    <script type="text/javascript">
+    console.log("load finishi")
+    $("#btn_slid1").click(function() {
+        $("#slid1").fadeIn("slow", function() {});
+        $("#slid2").hide();
+        $("#slid3").hide();
+        $("#main").css("background-color", "#fcc0d7");
+        $(".mainbg").css("background-image", "url(images/photo_index_1.png)");
+        // for index language menu
+        $(".lan_nav_in").css("background-color","#dd508e");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg3");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg2");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg1");
+        $(".lan_nav_ot").addClass("lan_nav_ot_bg1");
+        $(".language_in").css("background-color","#dd508e");
+        $(".language_in").mouseover(function() {
+            $(this).css("background-color", "#f178ae")
+            });
+        $(".language_in").mouseout(function(){
+            $(this).css("background-color","#dd508e");
+        });
+    });
+    $("#btn_slid2").click(function() {
+        $("#slid2").fadeIn("slow", function() {});
+        $("#slid1").hide();
+        $("#slid3").hide();
+        $("#main").css("background-color", "#b4e6f4");
+        $(".mainbg").css("background-image", "url(images/photo_index_2.png)");
+
+        // for index language menu
+        $(".lan_nav_in").css("background-color","#095fac");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg3");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg2");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg1");
+        $(".lan_nav_ot").addClass("lan_nav_ot_bg2");
+        $(".language_in").css("background-color","#095fac");
+        $(".language_in").mouseover(function() {
+            $(this).css("background-color", "#1f88c9")
+            });
+        $(".language_in").mouseout(function(){
+            $(this).css("background-color","#095fac");
+        });
+    });
+    $("#btn_slid3").click(function() {
+        $("#slid3").fadeIn("slow", function() {});
+        $("#slid2").hide();
+        $("#slid1").hide();
+        $("#main").css("background-color", "#fee3a1");
+        $(".mainbg").css("background-image", "url(images/photo_index_3.png)");
+
+        // for index language menu
+        $(".lan_nav_in").css("background-color","#e47725");
+        
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg3");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg2");
+        $(".lan_nav_ot").removeClass("lan_nav_ot_bg1");
+        $(".lan_nav_ot").addClass("lan_nav_ot_bg3");
+        $(".language_in").css("background-color","#e47725");
+
+        $(".language_in").mouseover(function() {
+            $(this).css("background-color", "#ee8d22")
+            });
+        $(".language_in").mouseout(function(){
+            $(this).css("background-color","#e47725");
+        });
+    });
+
+    $("#language_nav").click(function() {
+        $(".lan_nav_in").toggle();
+    });
+    $("#language_nav2").click(function() {
+        $(".lan_nav_in").toggle();
+    });
+    $(function(){
+            $('body').click(function(evt) {
+                if($(evt.target).parents("#language_nav").length==0 && 
+                    evt.target.id != "lan_nav_in" && evt.target.id != "language_nav") {
+                    $('.lan_nav_in').hide();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

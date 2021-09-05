@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>台灣銀行｜線上取號服務</title>
+    <!--Css-->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/selecter.css" />
+    <link href="css/normal.css" rel="stylesheet" />
+    <link href="css/v2.css" rel="stylesheet" />
+    <!-- Meta -->
+    <meta name="title" content=" " />
+    <meta name="description" content=" " />
+    <meta name="keywords" content=" " />
+    <!-- FaceBook -->
+    <meta property="og:site_name" content=" " />
+    <meta property="og:title" content=" " />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=" " />
+    <meta property="og:image" content=" " />
+    <meta property="og:description" content=" " />
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.preload.min.js"></script>
+    <script type="text/javascript">
+        $.preload( 'images/b_search2.png',
+                   'images/b_search2_h.png',
+                   'images/b_back1.png',
+                   'images/b_back1_h.png',
+                   'images/b_check2.png',
+                   'images/b_check2_h.png'
+        );
+    </script>
+</head>
+
+<body>
+    <!-- Entrance -->
+    <div id="head">
+        <a class="logo_v2" href="index.html "><img src="images/logo_index.png"></a>
+    </div>
+    <div id="main">
+        <div id="top_bg" class="top_bg"></div>
+        <!-- steps -->
+        <div class="steps1"></div>
+        <!-- last use -->
+        <div class="center_area last_use">
+            <p><span class="blue_b">快速選取：</span>您上次選擇的分行</p>
+            <div class="spotTable last_tb_color">
+                <table>
+                    <tr>
+                        <th><input class="magic-radio" type="radio" name="spot" id="r4">
+                            <label for="r4">民權分行民權分行民權分行</label>
+                            </th>
+                        <td>02-25530121</td>
+                        <td>台北市大同區承德路二段239號</td>
+                        <a href="#"><td></td></a>
+                    </tr>
+                    <tr>
+                        <th><input class="magic-radio" type="radio" name="spot" id="r5">
+                            <label for="r5">民權分行民權分行民權分行</label>
+                            </th>
+                        <td>02-25530121</td>
+                        <td>台北市大同區承德路二段239號</td>
+                        <a href="#"><td></td></a>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="UpdatePanelAddr">
+	
+            <div class="center_area search_area">
+                <div class="cs-select cs-skin-border">
+                    <select id="selCity" name="selCity" onchange="doCityChange(this);">
+                        <option value="">請選擇縣市別</option>
+                        
+                        <option value="基隆市" area="全部,中正區">基隆市</option>
+                        
+                        <option value="台北市" area="全部,士林區,大同區,大安區,中山區,中正區,內湖區,文山區,北投區,松山區,信義區,南港區,萬華區">台北市</option>
+                        
+                        <option value="新北市" area="全部,八里區,三重區,土城區,中和區,五股區,永和區,汐止區,板橋區,淡水區,新店區,新莊區,樹林區,蘆洲區">新北市</option>
+                        
+                        <option value="桃園市" area="全部,大園區,中壢區,平鎮區,桃園區,龍潭區,龜山區,蘆竹區">桃園市</option>
+                        
+                        <option value="新竹縣" area="全部,竹北市">新竹縣</option>
+                        
+                        <option value="新竹市" area="全部,東區">新竹市</option>
+                        
+                        <option value="苗栗縣" area="全部,苗栗市,頭份市">苗栗縣</option>
+                        
+                        <option value="台中市" area="全部,大甲區,大里區,大雅區,中區,太平區,北屯區,北區,西屯區,西區,沙鹿區,東區,南屯區,梧棲區,潭子區,豐原區,霧峰區">台中市</option>
+                        
+                        <option value="彰化縣" area="全部,員林市,鹿港鎮,彰化市">彰化縣</option>
+                        
+                        <option value="南投縣" area="全部,南投市,埔里鎮">南投縣</option>
+                        
+                        <option value="雲林縣" area="全部,斗六市,虎尾鎮">雲林縣</option>
+                        
+                        <option value="嘉義縣" area="全部,太保市">嘉義縣</option>
+                        
+                        <option value="嘉義市" area="全部,西區,東區">嘉義市</option>
+                        
+                        <option value="台南市" area="全部,中西區,仁德區,永康區,安南區,新市區,新營區">台南市</option>
+                        
+                        <option value="高雄市" area="全部,三民區,大寮區,小港區,仁武區,左營區,岡山區,前金區,前鎮區,苓雅區,新興區,楠梓區,路竹區,鼓山區,鳳山區">高雄市</option>
+                        
+                        <option value="屏東縣" area="全部,東港鎮,長治鄉,屏東市,潮州鎮">屏東縣</option>
+                        
+                        <option value="宜蘭縣" area="全部,宜蘭市,羅東鎮,蘇澳鎮">宜蘭縣</option>
+                        
+                        <option value="花蓮縣" area="全部,花蓮市">花蓮縣</option>
+                        
+                        <option value="台東縣" area="全部,台東市">台東縣</option>
+                        
+                        <option value="澎湖縣" area="全部,馬公市">澎湖縣</option>
+                        
+                        <option value="連江縣" area="全部,南竿鄉">連江縣</option>
+                        
+                        <option value="金門縣" area="全部,金湖鎮">金門縣</option>
+                        
+                    </select>
+                </div>
+                <div class="cs-select cs-skin-border">
+                    <select id="selArea" name="selArea" onchange="doAreaChange(this);">
+                        <option value="">請選擇鄉鎮市區</option>
+                    </select>
+                </div>
+                <div class="input_road">
+                    <input name="txtKey" type="text" id="txtKey" placeholder="&#38364;&#37749;&#23383;&#25628;&#23563;" />
+                </div>
+                <a onclick="doSearch();" id="lbtSearch" href="javascript:__doPostBack(&#39;lbtSearch&#39;,&#39;&#39;)">
+                    <div class="btn_search"></div>
+                </a>
+            </div>
+
+            
+</div>
+    <input type="hidden" id="brno" name="brno" />
+    <input type="hidden" id="brno2" name="brno2" />
+    <input type="hidden" id="city" name="city" />
+    <input type="hidden" id="area" name="area" />
+        
+        <div class="center_area search_v1">
+            <div class="spotTable">
+                <table>
+                    <tr>
+                        <th>分行名稱</th>
+                        <td>電話</td>
+                        <td>地址</td>
+                        <td>地圖</td>
+                    </tr>
+                    <tr>
+                        <th><input class="magic-radio" type="radio" name="spot" id="r1">
+                            <label for="r1">民權分行民權分行民權分行</label>
+                            </th>
+                        <td>02-25530121</td>
+                        <td>台北市大同區承德路二段239號</td>
+                        <a href="#"><td></td></a>
+                    </tr>
+                    <tr>
+                        <th><input class="magic-radio" type="radio" name="spot" id="r2">
+                            <label for="r2">民權分行民權分行民權分行</label>
+                            </th>
+                        <td>02-25530121</td>
+                        <td>台北市大同區承德路二段239號</td>
+                        <a href="#"><td></td></a>
+                    </tr>
+                    <tr>
+                        <th><input class="magic-radio" type="radio" name="spot" id="r3">
+                            <label for="r3">民權分行民權分行民權分行</label>
+                            </th>
+                        <td>02-25530121</td>
+                        <td>台北市大同區承德路二段239號</td>
+                        <a href="#"><td></td></a>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+        <div class="center_area search_v1">
+           <a href="index.html"> <div class="btn_back"></div></a>
+            <a href="v2_2.html"><div class="btn_check"></div></a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>It is recommended that you use the following browsers: Microsoft IE 11, Microsoft Edge, Google Chrome, Mozilla Firefox, and Safari browsers. <br>
+            <a href="https://www.bot.com.tw/Protect/Pages/default.aspx">[Privacy Statement]</a> | Copyright © 2018 Bank Of Taiwan. All Rights Reserved.
+         </p>
+    </div>
+    <script src="js/classie.js"></script>
+    <script src="js/selectFx.js"></script>
+    <script>
+    (function() {
+        [].slice.call(document.querySelectorAll('select.cs-select')).forEach(function(el) {
+            new SelectFx(el);
+        });
+    })();
+    </script>
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</body>
+
+</html>
